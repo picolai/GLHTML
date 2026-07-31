@@ -1,0 +1,2250 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="language" content="zh-Hant-TW" />
+
+  <title>賴冠淵｜AI 應用、訂閱制與商業創新顧問</title>
+  <meta name="description" content="賴冠淵專注於生成式 AI、企業工作流程優化、AI 教學、訂閱制商業模式、會員經濟與跨產業創新，協助企業將科技轉化為可落地、可衡量且可持續成長的商業價值。" />
+  <meta name="keywords" content="賴冠淵, AI 顧問, 生成式 AI, AI 教學, 企業內訓, 訂閱制, 會員經濟, 商業模式, 數位轉型, 谷萊富科技" />
+  <meta name="author" content="Kuan-Yuan Lai" />
+  <meta name="theme-color" content="#FFFFFF" />
+
+  <meta property="og:title" content="賴冠淵｜AI 應用、訂閱制與商業創新顧問" />
+  <meta property="og:description" content="連結 AI、商業模式與真實需求，協助企業打造可落地、可衡量且可持續成長的創新服務。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_TW" />
+
+  <!-- Canonical 網址：網站上線後請取消註解並替換正式網址 -->
+  <!-- <link rel="canonical" href="https://your-domain.com/" /> -->
+
+  <!-- Favicon：請替換為正式圖示檔案 -->
+  <!-- <link rel="icon" href="/favicon.ico" /> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'Noto Sans TC', 'system-ui', 'sans-serif']
+          },
+          colors: {
+            brand: {
+              blue: '#0071E3',
+              purple: '#2997FF',
+              mint: '#34C759',
+              ink: '#1D1D1F',
+              slate: '#6E6E73'
+            },
+            blue: {
+              50: '#EFF6FF',
+              100: '#DBEAFE',
+              200: '#BFDBFE',
+              300: '#93C5FD',
+              400: '#60A5FA',
+              500: '#3B82F6',
+              600: '#0071E3',
+              700: '#0071E3',
+              800: '#0039A6',
+              900: '#1D4ED8'
+            },
+            violet: {
+              50: '#EFF6FF',
+              100: '#E0E7FF',
+              200: '#C7D2FE',
+              300: '#A5B4FC',
+              400: '#818CF8',
+              500: '#6366F1',
+              600: '#2997FF',
+              700: '#2997FF',
+              800: '#1D4ED8',
+              900: '#4338CA'
+            },
+            emerald: {
+              50: '#ECFDF5',
+              100: '#D1FAE5',
+              200: '#A7F3D0',
+              300: '#6EE7B7',
+              400: '#34D399',
+              500: '#10B981',
+              600: '#34C759',
+              700: '#2F855A',
+              800: '#276749',
+              900: '#22543D'
+            },
+            amber: {
+              50: '#FFFBEB',
+              100: '#FEF3C7',
+              200: '#FDE68A',
+              300: '#FCD34D',
+              400: '#FBBF24',
+              500: '#F59E0B',
+              600: '#D97706',
+              700: '#B45309',
+              800: '#FF9F0A',
+              900: '#92400E'
+            },
+            slate: {
+              50: '#F8FAFC',
+              100: '#F5F5F7',
+              200: '#D2D2D7',
+              300: '#CBD5E1',
+              400: '#94A3B8',
+              500: '#A1A1A6',
+              600: '#6E6E73',
+              700: '#6E6E73',
+              800: '#475569',
+              900: '#161617'
+            }
+          },
+          boxShadow: {
+            soft: '0 18px 60px rgba(15, 23, 42, 0.08)',
+            glow: '0 18px 60px rgba(0, 113, 227, 0.16)'
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
+
+  <style>
+    :root {
+      --blue: #0071E3;
+      --blue-strong: #2997FF;
+      --green: #34C759;
+      --orange: #FF9F0A;
+      --dark: #161617;
+      --ink: #1D1D1F;
+      --gray-700: #6E6E73;
+      --gray-500: #A1A1A6;
+      --gray-800: #475569;
+      --gray-300: #D2D2D7;
+      --gray-300-rgb: 210, 210, 215;
+      --gray-200-rgb: 226, 232, 240;
+      --gray-100: #F5F5F7;
+      --border: var(--gray-300);
+      --surface: rgba(255, 255, 255, 0.76);
+      --gradient: linear-gradient(135deg, #0071E3 0%, #2997FF 100%);
+      --soft-gradient: linear-gradient(135deg, #ffffff 0%, #F5F5F7 50%, #EFF6FF 100%);
+      --blue-rgb: 0, 113, 227;
+      --purple-rgb: 41, 151, 255;
+      --green-rgb: 52, 199, 89;
+    }
+
+    .text-blue-700 { color: var(--blue) !important; }
+    .text-blue-600 { color: var(--blue) !important; }
+    .text-violet-600 { color: var(--blue) !important; }
+    .bg-blue-50 { background-color: rgba(0, 113, 227, 0.10) !important; }
+    .bg-violet-50 { background-color: rgba(0, 113, 227, 0.10) !important; }
+    .border-blue-100 { border-color: rgba(0, 113, 227, 0.18) !important; }
+    .bg-blue-600 { background-color: var(--blue) !important; }
+    .hover\:bg-blue-50:hover { background-color: rgba(0, 113, 227, 0.10) !important; }
+    .hover\:bg-blue-700:hover { background-color: var(--blue-strong) !important; }
+    .text-emerald-800 { color: var(--green) !important; }
+    .bg-emerald-50 { background-color: rgba(52, 199, 89, 0.10) !important; }
+    .text-slate-900 { color: var(--dark) !important; }
+    .text-slate-700 { color: var(--gray-700) !important; }
+    .text-slate-600 { color: var(--gray-700) !important; }
+    .text-slate-500 { color: var(--gray-500) !important; }
+    .border-slate-200 { border-color: var(--gray-300) !important; }
+    .bg-slate-50 { background-color: var(--gray-100) !important; }
+    .bg-slate-100 { background-color: var(--gray-100) !important; }
+    .bg-white\/80 { background-color: rgba(255, 255, 255, 0.80) !important; }
+    .bg-white\/72 { background-color: rgba(255, 255, 255, 0.72) !important; }
+    .bg-white\/78 { background-color: rgba(255, 255, 255, 0.78) !important; }
+    .bg-white\/94 { background-color: rgba(255, 255, 255, 0.94) !important; }
+    .text-amber-800 { color: var(--orange) !important; }
+    .border-amber-200 { border-color: rgba(255, 159, 10, 0.28) !important; }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 88px;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #ffffff;
+      font-family: Inter, "Noto Sans TC", system-ui, sans-serif;
+      line-height: 1.7;
+      overflow-x: hidden;
+      text-rendering: optimizeLegibility;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a,
+    button {
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    a:focus-visible,
+    button:focus-visible,
+    [tabindex]:focus-visible {
+      outline: 3px solid rgba(0, 113, 227, 0.35);
+      outline-offset: 4px;
+      border-radius: 14px;
+    }
+
+    ::selection {
+      color: #ffffff;
+      background: #0071E3;
+    }
+
+    .skip-link {
+      position: fixed;
+      top: 12px;
+      left: 12px;
+      z-index: 1000;
+      transform: translateY(-160%);
+      padding: 10px 16px;
+      border-radius: 999px;
+      color: #ffffff;
+      background: var(--ink);
+      transition: transform 180ms ease;
+    }
+
+    .skip-link:focus {
+      transform: translateY(0);
+    }
+
+    .site-shell {
+      position: relative;
+      isolation: isolate;
+    }
+
+    #data-canvas {
+      position: fixed;
+      inset: 0;
+      z-index: -3;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      opacity: 0.5;
+    }
+
+    .background-grid {
+      position: fixed;
+      inset: 0;
+      z-index: -4;
+      pointer-events: none;
+      background-image:
+        linear-gradient(rgba(0, 113, 227, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 113, 227, 0.035) 1px, transparent 1px);
+      background-size: 56px 56px;
+      mask-image: linear-gradient(to bottom, black 0%, rgba(0,0,0,.58) 42%, transparent 92%);
+    }
+
+    .ambient-orb {
+      position: fixed;
+      z-index: -2;
+      width: 34rem;
+      height: 34rem;
+      border-radius: 999px;
+      filter: blur(80px);
+      pointer-events: none;
+      opacity: 0.18;
+      animation: float-orb 18s ease-in-out infinite alternate;
+    }
+
+    .ambient-orb--blue {
+      top: -12rem;
+      right: -10rem;
+      background: rgba(41, 151, 255, 0.7);
+    }
+
+    .ambient-orb--purple {
+      top: 38%;
+      left: -16rem;
+      background: rgba(161, 161, 166, 0.28);
+      animation-delay: -7s;
+    }
+
+    .ambient-orb--mint {
+      right: -18rem;
+      bottom: 2%;
+      background: rgba(52, 199, 89, 0.28);
+      animation-delay: -13s;
+    }
+
+    @keyframes float-orb {
+      0% { transform: translate3d(0, 0, 0) scale(1); }
+      100% { transform: translate3d(3rem, 2rem, 0) scale(1.08); }
+    }
+
+    .container-shell {
+      width: min(100% - 2rem, 1240px);
+      margin-inline: auto;
+    }
+
+    .section-spacing {
+      padding-block: clamp(4.5rem, 9vw, 7.5rem);
+    }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.55rem;
+      padding: 0.48rem 0.78rem;
+      border: 1px solid rgba(var(--gray-200-rgb), 0.36);
+      border-radius: 999px;
+      color: var(--gray-700);
+      background: rgba(255, 255, 255, 0.72);
+      box-shadow: 0 8px 28px rgba(15, 23, 42, 0.05);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .status-dot {
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 999px;
+      background: var(--green);
+      box-shadow: 0 0 0 5px rgba(52, 199, 89, 0.1), 0 0 14px rgba(52, 199, 89, 0.55);
+      animation: status-pulse 2.2s ease-in-out infinite;
+    }
+
+    @keyframes status-pulse {
+      0%, 100% { opacity: 0.7; transform: scale(0.92); }
+      50% { opacity: 1; transform: scale(1.08); }
+    }
+
+    .gradient-text {
+      display: inline-block;
+      color: transparent;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      background-clip: text;
+    }
+
+    .glass-panel {
+      border: 1px solid rgba(210, 210, 215, 0.82);
+      background: rgba(255, 255, 255, 0.76);
+      box-shadow: 0 22px 70px rgba(15, 23, 42, 0.08);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+
+    .nav-wrap {
+      position: fixed;
+      inset: 0 0 auto;
+      z-index: 100;
+      border-bottom: 1px solid transparent;
+      background: rgba(255, 255, 255, 0.64);
+      transition: background 240ms ease, border-color 240ms ease, box-shadow 240ms ease, backdrop-filter 240ms ease;
+    }
+
+    .nav-wrap.is-scrolled {
+      border-bottom-color: rgba(226, 232, 240, 0.92);
+      background: rgba(255, 255, 255, 0.86);
+      box-shadow: 0 10px 36px rgba(15, 23, 42, 0.07);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+
+    .nav-link {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      min-height: 44px;
+      padding-inline: 0.7rem;
+      color: var(--gray-800);
+      font-size: 0.88rem;
+      font-weight: 600;
+      transition: color 180ms ease;
+    }
+
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      right: 0.7rem;
+      bottom: 0.35rem;
+      left: 0.7rem;
+      height: 2px;
+      border-radius: 999px;
+      background: var(--gradient);
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform 200ms ease;
+    }
+
+    .nav-link:hover,
+    .nav-link.is-active {
+      color: var(--blue);
+    }
+
+    .nav-link.is-active::after {
+      transform: scaleX(1);
+    }
+
+    .mobile-menu {
+      display: grid;
+      grid-template-rows: 0fr;
+      opacity: 0;
+      transition: grid-template-rows 280ms ease, opacity 220ms ease;
+    }
+
+    .mobile-menu > div {
+      overflow: hidden;
+    }
+
+    .mobile-menu.is-open {
+      grid-template-rows: 1fr;
+      opacity: 1;
+    }
+
+    .hero-section {
+      position: relative;
+      display: flex;
+      min-height: 100svh;
+      align-items: center;
+      padding-top: 7rem;
+      background: linear-gradient(135deg, rgba(var(--gray-100-rgb), 0.90) 0%, rgba(var(--gray-100-rgb), 0.72) 48%, rgba(var(--gray-100-rgb), 0.76) 100%);
+    }
+
+    .hero-section::after {
+      content: "";
+      position: absolute;
+      inset: auto 0 0;
+      height: 11rem;
+      background: linear-gradient(to bottom, transparent, #ffffff);
+      pointer-events: none;
+    }
+
+    .hero-title {
+      max-width: 1020px;
+      min-height: 2.75em;
+      font-size: clamp(2.55rem, 7vw, 5rem);
+      font-weight: 800;
+      line-height: 1.12;
+      letter-spacing: -0.055em;
+      text-wrap: balance;
+    }
+
+    .type-line {
+      display: block;
+      min-height: 1.12em;
+    }
+
+    .type-cursor {
+      display: inline-block;
+      width: 0.08em;
+      height: 0.9em;
+      margin-left: 0.07em;
+      vertical-align: -0.06em;
+      border-radius: 999px;
+      background: linear-gradient(to bottom, var(--blue), var(--purple));
+      animation: cursor-blink 0.9s step-end infinite;
+    }
+
+    @keyframes cursor-blink {
+      50% { opacity: 0; }
+    }
+
+    .hero-description {
+      max-width: 820px;
+      color: var(--gray-700);
+      font-size: clamp(1.02rem, 1.7vw, 1.18rem);
+      line-height: 1.85;
+    }
+
+    .hero-dashboard {
+      position: relative;
+      overflow: hidden;
+      border-radius: 1.75rem;
+    }
+
+    .hero-dashboard::before {
+      content: "";
+      position: absolute;
+      inset: -30%;
+      background: conic-gradient(from 180deg, transparent, rgba(var(--blue-rgb), .16), transparent 35%, rgba(var(--purple-rgb), .15), transparent 68%);
+      animation: dashboard-spin 16s linear infinite;
+    }
+
+    .hero-dashboard > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    @keyframes dashboard-spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .flow-line {
+      position: relative;
+      overflow: hidden;
+      height: 2px;
+      border-radius: 999px;
+      background: var(--border);
+    }
+
+    .flow-line::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -38%;
+      width: 38%;
+      height: 100%;
+      border-radius: inherit;
+      background: var(--gradient);
+      animation: flow-move 3.8s ease-in-out infinite;
+    }
+
+    @keyframes flow-move {
+      0% { left: -38%; }
+      100% { left: 100%; }
+    }
+
+    .cta-button {
+      position: relative;
+      display: inline-flex;
+      min-height: 48px;
+      align-items: center;
+      justify-content: center;
+      gap: 0.65rem;
+      overflow: visible;
+      border: 1px solid transparent;
+      border-radius: 999px;
+      padding: 0.78rem 1.25rem;
+      font-weight: 700;
+      transition: transform 220ms ease, box-shadow 220ms ease, border-color 220ms ease, background 220ms ease;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-4px);
+    }
+
+    .cta-primary {
+      color: #ffffff;
+      background: var(--gradient);
+      box-shadow: 0 14px 36px rgba(var(--blue-rgb), 0.24);
+    }
+
+    .cta-primary:hover {
+      box-shadow: 0 18px 50px rgba(var(--green-rgb), 0.18), 0 18px 46px rgba(var(--blue-rgb), 0.25);
+    }
+
+    .cta-secondary {
+      border-color: rgba(var(--purple-rgb), 0.34);
+      color: var(--blue);
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 12px 34px rgba(15, 23, 42, 0.07);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    .cta-secondary:hover {
+      border-color: rgba(var(--green-rgb), 0.58);
+      box-shadow: 0 18px 44px rgba(var(--green-rgb), 0.14);
+    }
+
+    .cta-button .arrow-icon {
+      transition: transform 220ms ease;
+    }
+
+    .cta-button:hover .arrow-icon {
+      transform: translateX(4px);
+    }
+
+    .status-tooltip {
+      position: absolute;
+      left: 50%;
+      bottom: calc(100% + 0.55rem);
+      z-index: 20;
+      width: max-content;
+      max-width: 220px;
+      transform: translate(-50%, 6px);
+      border: 1px solid rgba(52, 199, 89, 0.25);
+      border-radius: 999px;
+      padding: 0.28rem 0.58rem;
+      color: #166534;
+      background: rgba(237, 250, 241, 0.96);
+      box-shadow: 0 8px 22px rgba(52, 199, 89, 0.14);
+      font-size: 0.7rem;
+      font-weight: 700;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 180ms ease, transform 180ms ease;
+    }
+
+    .cta-button:hover .status-tooltip,
+    .cta-button:focus-visible .status-tooltip {
+      opacity: 1;
+      transform: translate(-50%, 0);
+    }
+
+    .trust-strip {
+      position: relative;
+      z-index: 2;
+      margin-top: -2.5rem;
+    }
+
+    .trust-item {
+      display: flex;
+      min-height: 138px;
+      flex-direction: column;
+      justify-content: space-between;
+      border-right: 1px solid var(--border);
+    }
+
+    .section-heading {
+      max-width: 850px;
+    }
+
+    .section-title {
+      margin-top: 1rem;
+      font-size: clamp(2.15rem, 5vw, 3.35rem);
+      font-weight: 800;
+      line-height: 1.18;
+      letter-spacing: -0.04em;
+      text-wrap: balance;
+    }
+
+    .section-description {
+      margin-top: 1.15rem;
+      max-width: 760px;
+      color: var(--gray-500);
+      font-size: clamp(1rem, 1.7vw, 1.12rem);
+      line-height: 1.85;
+    }
+
+    .bento-card,
+    .service-card,
+    .solution-card,
+    .portfolio-card,
+    .insight-card {
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(var(--gray-200-rgb), 0.92);
+      background: rgba(255, 255, 255, 0.78);
+      box-shadow: 0 16px 48px rgba(15, 23, 42, 0.055);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      transition: transform 260ms ease, border-color 260ms ease, box-shadow 260ms ease;
+    }
+
+    .bento-card::before,
+    .service-card::before,
+    .solution-card::before,
+    .portfolio-card::before,
+    .insight-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      padding: 1px;
+      background: linear-gradient(135deg, rgba(var(--blue-rgb), 0), rgba(var(--purple-rgb), 0), rgba(var(--green-rgb), 0));
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+      transition: background 260ms ease;
+    }
+
+    .bento-card:hover,
+    .service-card:hover,
+    .solution-card:hover,
+    .portfolio-card:hover,
+    .insight-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(var(--gray-300-rgb), 0.32);
+      box-shadow: 0 24px 70px rgba(var(--blue-rgb), 0.11), 0 16px 42px rgba(var(--green-rgb), 0.08);
+    }
+
+    .bento-card:hover::before,
+    .service-card:hover::before,
+    .solution-card:hover::before,
+    .portfolio-card:hover::before,
+    .insight-card:hover::before {
+      background: linear-gradient(135deg, rgba(var(--blue-rgb), .62), rgba(var(--purple-rgb), .52), rgba(var(--green-rgb), .45));
+    }
+
+    .hover-node {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      width: 0.65rem;
+      height: 0.65rem;
+      border-radius: 999px;
+      background: var(--mint);
+      box-shadow: 0 0 18px rgba(var(--green-rgb), 0.6);
+      opacity: 0;
+      transform: scale(0.6);
+      transition: opacity 220ms ease, transform 220ms ease;
+    }
+
+    .service-card:hover .hover-node,
+    .solution-card:hover .hover-node,
+    .portfolio-card:hover .hover-node,
+    .insight-card:hover .hover-node {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .icon-box {
+      display: inline-grid;
+      width: 3.25rem;
+      height: 3.25rem;
+      place-items: center;
+      border: 1px solid rgba(var(--gray-300-rgb), 0.2);
+      border-radius: 1rem;
+      color: var(--blue);
+      background: linear-gradient(135deg, rgba(255,255,255,.98), rgba(var(--gray-100-rgb),.98));
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.85), 0 8px 24px rgba(var(--blue-rgb),.08);
+    }
+
+    .tag {
+      display: inline-flex;
+      min-height: 30px;
+      align-items: center;
+      border: 1px solid rgb(var(--gray-200-rgb));
+      border-radius: 999px;
+      padding: 0.24rem 0.62rem;
+      color: var(--gray-800);
+      background: rgba(var(--gray-100-rgb), 0.9);
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .portrait-placeholder {
+      position: relative;
+      display: grid;
+      min-height: 570px;
+      place-items: center;
+      overflow: hidden;
+      border-radius: 2rem;
+      background:
+        radial-gradient(circle at 20% 20%, rgba(var(--blue-rgb),.20), transparent 36%),
+        radial-gradient(circle at 78% 20%, rgba(var(--gray-300-rgb),.24), transparent 40%),
+        linear-gradient(155deg, var(--gray-100), var(--blue-50) 52%, #FFFFFF);
+    }
+
+    .portrait-placeholder::before {
+      content: "";
+      position: absolute;
+      inset: 7%;
+      border: 1px solid rgba(var(--purple-rgb), 0.18);
+      border-radius: 1.5rem;
+      background:
+        linear-gradient(rgba(var(--blue-rgb),.045) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(var(--blue-rgb),.045) 1px, transparent 1px);
+      background-size: 36px 36px;
+    }
+
+    .portrait-silhouette {
+      position: relative;
+      z-index: 2;
+      width: min(78%, 340px);
+      aspect-ratio: 0.78;
+      border: 1px solid rgba(255, 255, 255, 0.82);
+      border-radius: 45% 45% 28% 28% / 28% 28% 18% 18%;
+      background:
+        radial-gradient(circle at 50% 22%, rgba(255,255,255,.96) 0 12%, rgba(236,246,255,.96) 12.5% 27%, transparent 27.5%),
+        radial-gradient(ellipse at 50% 77%, rgba(255,255,255,.98) 0 32%, rgba(233,241,255,.92) 32.5% 57%, transparent 57.5%);
+      box-shadow: 0 30px 80px rgba(var(--blue-rgb),.16);
+      backdrop-filter: blur(8px);
+    }
+
+    .portrait-label {
+      position: absolute;
+      right: 1.25rem;
+      bottom: 1.25rem;
+      left: 1.25rem;
+      z-index: 3;
+      border: 1px solid rgba(255,255,255,.78);
+      border-radius: 1.25rem;
+      padding: 1rem;
+      color: var(--gray-800);
+      background: rgba(255,255,255,.78);
+      box-shadow: 0 14px 36px rgba(15,23,42,.08);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      font-size: 0.86rem;
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-left: 2.2rem;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      top: 0.4rem;
+      left: 0;
+      width: 0.82rem;
+      height: 0.82rem;
+      border: 3px solid #ffffff;
+      border-radius: 999px;
+      background: var(--gradient);
+      box-shadow: 0 0 0 1px rgba(var(--purple-rgb), 0.25), 0 0 18px rgba(var(--blue-rgb), 0.18);
+    }
+
+    .timeline-item:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      top: 1.45rem;
+      bottom: -1.6rem;
+      left: 0.38rem;
+      width: 1px;
+      background: linear-gradient(to bottom, rgba(var(--blue-rgb),.35), rgba(var(--purple-rgb),.12));
+    }
+
+    .service-expand {
+      display: grid;
+      grid-template-rows: 0fr;
+      opacity: 0;
+      transition: grid-template-rows 260ms ease, opacity 220ms ease, margin-top 260ms ease;
+    }
+
+    .service-expand > div {
+      overflow: hidden;
+    }
+
+    .service-card.is-expanded .service-expand {
+      grid-template-rows: 1fr;
+      margin-top: 1rem;
+      opacity: 1;
+    }
+
+    .service-card.is-expanded .expand-chevron {
+      transform: rotate(180deg);
+    }
+
+    .expand-chevron {
+      transition: transform 200ms ease;
+    }
+
+    .subscription-section {
+      position: relative;
+      background:
+        radial-gradient(circle at 82% 15%, rgba(var(--purple-rgb),.24), transparent 34%),
+        radial-gradient(circle at 14% 88%, rgba(var(--blue-rgb),.24), transparent 36%),
+        linear-gradient(135deg, rgba(var(--gray-100-rgb),.94), rgba(var(--gray-100-rgb),.92) 48%, rgba(var(--gray-100-rgb),.90));
+    }
+
+    .metric-chip {
+      border: 1px solid rgba(var(--purple-rgb),.2);
+      border-radius: 1rem;
+      padding: 0.85rem;
+      background: rgba(255,255,255,.7);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.9);
+    }
+
+    .process-track {
+      position: relative;
+    }
+
+    .process-track::before {
+      content: "";
+      position: absolute;
+      top: 1.42rem;
+      right: 5%;
+      left: 5%;
+      height: 2px;
+      background: linear-gradient(90deg, rgba(var(--blue-rgb),.18), rgba(var(--purple-rgb),.54), rgba(var(--green-rgb),.35));
+    }
+
+    .process-node {
+      position: relative;
+      z-index: 1;
+    }
+
+    .process-number {
+      display: grid;
+      width: 2.85rem;
+      height: 2.85rem;
+      margin-inline: auto;
+      place-items: center;
+      border: 5px solid var(--blue-50);
+      border-radius: 999px;
+      color: #ffffff;
+      background: var(--gradient);
+      box-shadow: 0 10px 24px rgba(var(--blue-rgb), 0.18);
+      font-size: 0.78rem;
+      font-weight: 800;
+    }
+
+    .case-image-placeholder {
+      position: relative;
+      display: grid;
+      min-height: 170px;
+      place-items: center;
+      overflow: hidden;
+      border-bottom: 1px solid var(--border);
+      background:
+        linear-gradient(rgba(var(--blue-rgb),.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(var(--blue-rgb),.05) 1px, transparent 1px),
+        linear-gradient(135deg, var(--gray-100), var(--blue-50) 55%, #FFFFFF);
+      background-size: 28px 28px, 28px 28px, auto;
+    }
+
+    .case-image-placeholder::after {
+      content: "";
+      position: absolute;
+      width: 11rem;
+      height: 11rem;
+      border: 1px solid rgba(var(--gray-300-rgb),.16);
+      border-radius: 48% 52% 62% 38% / 38% 45% 55% 62%;
+      background: rgba(255,255,255,.45);
+      box-shadow: 0 18px 50px rgba(var(--blue-rgb),.09);
+      animation: blob-float 9s ease-in-out infinite alternate;
+    }
+
+    @keyframes blob-float {
+      to { transform: translate3d(16px, -10px, 0) rotate(8deg); }
+    }
+
+    .case-placeholder-label {
+      position: relative;
+      z-index: 2;
+      border: 1px solid rgba(255,255,255,.9);
+      border-radius: 999px;
+      padding: 0.45rem 0.75rem;
+      color: var(--gray-800);
+      background: rgba(255,255,255,.82);
+      box-shadow: 0 10px 30px rgba(15,23,42,.08);
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    .insight-cover {
+      min-height: 145px;
+      background:
+        radial-gradient(circle at 70% 25%, rgba(var(--green-rgb),.16), transparent 35%),
+        radial-gradient(circle at 25% 70%, rgba(var(--purple-rgb),.16), transparent 40%),
+        linear-gradient(135deg, var(--gray-100), var(--blue-50) 52%, #FFFFFF);
+    }
+
+    .contact-section {
+      position: relative;
+      overflow: hidden;
+    }
+
+    .contact-section::before,
+    .contact-section::after {
+      content: "";
+      position: absolute;
+      border-radius: 999px;
+      filter: blur(6px);
+      pointer-events: none;
+    }
+
+    .contact-section::before {
+      top: -8rem;
+      right: -7rem;
+      width: 22rem;
+      height: 22rem;
+      background: radial-gradient(circle, rgba(var(--blue-rgb),.24), transparent 70%);
+    }
+
+    .contact-section::after {
+      bottom: -10rem;
+      left: -8rem;
+      width: 26rem;
+      height: 26rem;
+      background: radial-gradient(circle, rgba(var(--gray-300-rgb),.22), transparent 70%);
+    }
+
+    .network-visual {
+      position: relative;
+      min-height: 270px;
+    }
+
+    .network-node {
+      position: absolute;
+      display: grid;
+      width: 3.2rem;
+      height: 3.2rem;
+      place-items: center;
+      border: 1px solid rgba(var(--gray-300-rgb),.24);
+      border-radius: 999px;
+      color: var(--blue);
+      background: rgba(255,255,255,.9);
+      box-shadow: 0 12px 34px rgba(var(--blue-rgb),.12), 0 0 0 8px rgba(255,255,255,.45);
+      animation: node-float 5s ease-in-out infinite alternate;
+    }
+
+    .network-node:nth-child(2) { animation-delay: -1.2s; }
+    .network-node:nth-child(3) { animation-delay: -2.4s; }
+    .network-node:nth-child(4) { animation-delay: -3.5s; }
+    .network-node:nth-child(5) { animation-delay: -4.4s; }
+
+    @keyframes node-float {
+      to { transform: translateY(-10px); }
+    }
+
+    .network-line {
+      position: absolute;
+      height: 1px;
+      transform-origin: left center;
+      background: linear-gradient(90deg, rgba(var(--blue-rgb),.08), rgba(var(--purple-rgb),.38), rgba(var(--green-rgb),.18));
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 700ms cubic-bezier(.2,.75,.2,1), transform 700ms cubic-bezier(.2,.75,.2,1);
+    }
+
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .toast {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      z-index: 300;
+      max-width: min(92vw, 390px);
+      transform: translateY(20px);
+      border: 1px solid rgba(var(--gray-300-rgb),.24);
+      border-radius: 1rem;
+      padding: 0.9rem 1rem;
+      color: var(--gray-700);
+      background: rgba(255,255,255,.94);
+      box-shadow: 0 22px 60px rgba(15,23,42,.16);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 220ms ease, transform 220ms ease;
+    }
+
+    .toast.is-visible {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    @media (max-width: 1023px) {
+      .trust-item:nth-child(2) {
+        border-right: 0;
+      }
+
+      .trust-item:nth-child(-n+2) {
+        border-bottom: 1px solid var(--border);
+      }
+
+      .process-track::before {
+        display: none;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .container-shell {
+        width: min(100% - 1.25rem, 1240px);
+      }
+
+      .hero-section {
+        min-height: auto;
+        padding-top: 8.25rem;
+        padding-bottom: 6.5rem;
+      }
+
+      .hero-title {
+        min-height: 3.5em;
+        font-size: clamp(2.45rem, 12vw, 3.6rem);
+        line-height: 1.13;
+      }
+
+      .type-line {
+        min-height: 1.45em;
+      }
+
+      .trust-strip {
+        margin-top: -1rem;
+      }
+
+      .trust-item {
+        min-height: auto;
+        border-right: 0;
+      border-bottom: 1px solid var(--border);
+
+      .trust-item:last-child {
+        border-bottom: 0;
+      }
+
+      .portrait-placeholder {
+        min-height: 460px;
+      }
+
+      .cta-button {
+        width: 100%;
+      }
+
+      .status-tooltip {
+        display: none;
+      }
+
+      .network-visual {
+        min-height: 230px;
+      }
+    }
+
+    @media (max-width: 360px) {
+      .hero-title {
+        font-size: 2.25rem;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        scroll-behavior: auto !important;
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+      }
+
+      #data-canvas {
+        display: none;
+      }
+
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+
+      .type-cursor {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳至主要內容</a>
+
+  <div class="site-shell">
+    <canvas id="data-canvas" aria-hidden="true"></canvas>
+    <div class="background-grid" aria-hidden="true"></div>
+    <div class="ambient-orb ambient-orb--blue" aria-hidden="true"></div>
+    <div class="ambient-orb ambient-orb--purple" aria-hidden="true"></div>
+    <div class="ambient-orb ambient-orb--mint" aria-hidden="true"></div>
+
+    <header id="site-header" class="nav-wrap">
+      <nav class="container-shell flex min-h-[76px] items-center justify-between gap-5" aria-label="主要導覽">
+        <a href="#home" class="group flex min-w-0 items-center gap-3" aria-label="返回首頁">
+          <span class="grid h-10 w-10 shrink-0 place-items-center rounded-2xl bg-gradient-to-br from-blue-600 to-violet-600 text-sm font-extrabold text-white shadow-lg shadow-blue-200/60">K</span>
+          <span class="min-w-0">
+            <span class="block truncate text-[0.93rem] font-extrabold tracking-[0.06em] text-slate-900">KUAN-YUAN LAI</span>
+            <span class="block truncate text-[0.66rem] font-semibold tracking-[0.08em] text-slate-500">AI × SUBSCRIPTION × INNOVATION</span>
+          </span>
+        </a>
+
+        <div class="hidden items-center gap-1 lg:flex">
+          <a class="nav-link is-active" href="#home" data-nav-link>首頁</a>
+          <a class="nav-link" href="#about" data-nav-link>關於我</a>
+          <a class="nav-link" href="#services" data-nav-link>專業服務</a>
+          <a class="nav-link" href="#subscription" data-nav-link>訂閱方案</a>
+          <a class="nav-link" href="#portfolio" data-nav-link>作品案例</a>
+          <a class="nav-link" href="#insights" data-nav-link>專業洞察</a>
+        </div>
+
+        <div class="hidden items-center lg:flex">
+          <a
+            class="cta-button cta-primary px-5 py-2.5 text-sm"
+            href="https://calendar.app.google/wJdZW2vFkmToT52T8"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span>預約諮詢</span>
+            <i data-lucide="calendar-check" class="h-4 w-4" aria-hidden="true"></i>
+            <span class="status-tooltip">Status: Ready to Connect</span>
+          </a>
+        </div>
+
+        <button
+          id="mobile-menu-button"
+          type="button"
+          class="inline-grid h-11 w-11 place-items-center rounded-xl border border-slate-200 bg-white/80 text-slate-700 shadow-sm lg:hidden"
+          aria-label="開啟導覽選單"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+        >
+          <i id="menu-icon" data-lucide="menu" class="h-5 w-5" aria-hidden="true"></i>
+        </button>
+      </nav>
+
+      <div id="mobile-menu" class="mobile-menu border-t border-slate-200/80 bg-white/94 lg:hidden" aria-hidden="true">
+        <div>
+          <div class="container-shell space-y-1 py-4">
+            <a class="mobile-nav-link flex min-h-11 items-center rounded-xl px-3 font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-700" href="#home">首頁</a>
+            <a class="mobile-nav-link flex min-h-11 items-center rounded-xl px-3 font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-700" href="#about">關於我</a>
+            <a class="mobile-nav-link flex min-h-11 items-center rounded-xl px-3 font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-700" href="#services">專業服務</a>
+            <a class="mobile-nav-link flex min-h-11 items-center rounded-xl px-3 font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-700" href="#subscription">訂閱方案</a>
+            <a class="mobile-nav-link flex min-h-11 items-center rounded-xl px-3 font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-700" href="#portfolio">作品案例</a>
+            <a class="mobile-nav-link flex min-h-11 items-center rounded-xl px-3 font-semibold text-slate-700 hover:bg-blue-50 hover:text-blue-700" href="#insights">專業洞察</a>
+            <a
+              class="mt-3 flex min-h-12 items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-blue-600 to-violet-600 px-4 font-bold text-white shadow-lg shadow-blue-100"
+              href="https://calendar.app.google/wJdZW2vFkmToT52T8"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              預約諮詢
+              <i data-lucide="arrow-up-right" class="h-4 w-4" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section id="home" class="hero-section" aria-labelledby="hero-title">
+        <div class="container-shell relative z-10 grid items-center gap-12 pb-12 lg:grid-cols-[1.17fr_.83fr] lg:gap-14">
+          <div>
+            <div class="section-label reveal">
+              <span class="status-dot" aria-hidden="true"></span>
+              <span>AI 應用｜訂閱經濟｜商業創新</span>
+            </div>
+
+            <h1 id="hero-title" class="hero-title mt-7" aria-label="讓每一次交易，成為一段長期關係。從一次成交，到終身價值。">
+              <span class="type-line" id="type-line-1"></span>
+              <span class="type-line">
+                <span id="type-line-2"></span><span id="type-cursor" class="type-cursor" aria-hidden="true"></span>
+              </span>
+            </h1>
+
+            <p class="hero-description reveal mt-7" style="transition-delay: 100ms;">
+              我整合生成式 AI、訂閱商業模式與實際營運經驗，協助企業優化工作流程、建立可持續的會員關係，並把科技轉化為可落地、可衡量、能持續成長的商業價值。
+            </p>
+
+            <div class="reveal mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap" style="transition-delay: 180ms;">
+              <a
+                class="cta-button cta-primary"
+                href="https://calendar.app.google/wJdZW2vFkmToT52T8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>預約一對一諮詢</span>
+                <i data-lucide="arrow-up-right" class="arrow-icon h-4 w-4" aria-hidden="true"></i>
+                <span class="status-tooltip">Status: Ready to Connect</span>
+              </a>
+              <a class="cta-button cta-secondary" href="#subscription">
+                <span>查看解決方案</span>
+                <i data-lucide="arrow-down" class="arrow-icon h-4 w-4" aria-hidden="true"></i>
+                <span class="status-tooltip">Status: Explore Solutions</span>
+              </a>
+            </div>
+
+            <div class="reveal mt-9 flex flex-wrap gap-x-6 gap-y-3 text-sm text-slate-500" style="transition-delay: 240ms;">
+              <span class="inline-flex items-center gap-2"><i data-lucide="check-circle-2" class="h-4 w-4 text-emerald-500" aria-hidden="true"></i>策略與落地並重</span>
+              <span class="inline-flex items-center gap-2"><i data-lucide="check-circle-2" class="h-4 w-4 text-emerald-500" aria-hidden="true"></i>企業情境導向</span>
+              <span class="inline-flex items-center gap-2"><i data-lucide="check-circle-2" class="h-4 w-4 text-emerald-500" aria-hidden="true"></i>長期價值設計</span>
+            </div>
+          </div>
+
+          <aside class="hero-dashboard glass-panel reveal p-5 sm:p-6" aria-label="AI 與訂閱商業整合示意" style="transition-delay: 180ms;">
+            <div class="rounded-[1.35rem] border border-white/90 bg-white/88 p-5 shadow-soft sm:p-6">
+              <div class="flex items-start justify-between gap-4">
+                <div>
+                  <p class="text-xs font-extrabold tracking-[0.18em] text-blue-600">VALUE SYSTEM</p>
+                  <h2 class="mt-2 text-xl font-extrabold text-slate-900">從工具導入到長期成長</h2>
+                </div>
+                <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-emerald-50 text-emerald-600">
+                  <i data-lucide="activity" class="h-5 w-5" aria-hidden="true"></i>
+                </span>
+              </div>
+
+              <div class="mt-6 space-y-5">
+                <div>
+                  <div class="mb-2 flex items-center justify-between gap-3 text-sm">
+                    <span class="font-bold text-slate-700">AI 流程優化</span>
+                    <span class="font-semibold text-blue-600">效率</span>
+                  </div>
+                  <div class="flow-line"></div>
+                </div>
+                <div>
+                  <div class="mb-2 flex items-center justify-between gap-3 text-sm">
+                    <span class="font-bold text-slate-700">訂閱關係設計</span>
+                    <span class="font-semibold text-violet-600">留存</span>
+                  </div>
+                  <div class="flow-line" style="--delay: .6s;"></div>
+                </div>
+                <div>
+                  <div class="mb-2 flex items-center justify-between gap-3 text-sm">
+                    <span class="font-bold text-slate-700">營運數據決策</span>
+                    <span class="font-semibold text-emerald-600">成長</span>
+                  </div>
+                  <div class="flow-line"></div>
+                </div>
+              </div>
+
+              <div class="mt-7 grid grid-cols-3 gap-3">
+                <div class="metric-chip">
+                  <i data-lucide="workflow" class="h-4 w-4 text-blue-600" aria-hidden="true"></i>
+                  <p class="mt-2 text-xs font-bold text-slate-500">Workflow</p>
+                  <p class="mt-1 text-sm font-extrabold text-slate-900">AI Ready</p>
+                </div>
+                <div class="metric-chip">
+                  <i data-lucide="repeat-2" class="h-4 w-4 text-violet-600" aria-hidden="true"></i>
+                  <p class="mt-2 text-xs font-bold text-slate-500">Revenue</p>
+                  <p class="mt-1 text-sm font-extrabold text-slate-900">Recurring</p>
+                </div>
+                <div class="metric-chip">
+                  <i data-lucide="handshake" class="h-4 w-4 text-emerald-600" aria-hidden="true"></i>
+                  <p class="mt-2 text-xs font-bold text-slate-500">Value</p>
+                  <p class="mt-1 text-sm font-extrabold text-slate-900">Co-create</p>
+                </div>
+              </div>
+
+              <div class="mt-6 rounded-2xl border border-blue-100 bg-blue-50/65 p-4">
+                <div class="flex items-center gap-3">
+                  <span class="grid h-9 w-9 place-items-center rounded-xl bg-white text-blue-600 shadow-sm">
+                    <i data-lucide="sparkles" class="h-4 w-4" aria-hidden="true"></i>
+                  </span>
+                  <div>
+                    <p class="text-sm font-extrabold text-slate-900">Human-Centered AI</p>
+                    <p class="text-xs text-slate-500">科技服務真實需求，而不是增加新的複雜度。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="品牌信任基礎">
+        <div class="container-shell glass-panel overflow-hidden rounded-[1.6rem]">
+          <div class="grid md:grid-cols-2 lg:grid-cols-4">
+            <article class="trust-item reveal">
+              <i data-lucide="briefcase-business" class="h-5 w-5 text-blue-600" aria-hidden="true"></i>
+              <div>
+                <h2 class="text-base font-extrabold text-slate-900">創業與企業經營</h2>
+                <p class="mt-1 text-sm text-slate-500">從管理、流程到市場協作，理解策略落地的真實條件。</p>
+              </div>
+            </article>
+            <article class="trust-item reveal" style="transition-delay: 80ms;">
+              <i data-lucide="graduation-cap" class="h-5 w-5 text-violet-600" aria-hidden="true"></i>
+              <div>
+                <h2 class="text-base font-extrabold text-slate-900">AI 教學與顧問</h2>
+                <p class="mt-1 text-sm text-slate-500">以企業情境、實作流程與問題解決為核心設計學習。</p>
+              </div>
+            </article>
+            <article class="trust-item reveal" style="transition-delay: 160ms;">
+              <i data-lucide="network" class="h-5 w-5 text-emerald-600" aria-hidden="true"></i>
+              <div>
+                <h2 class="text-base font-extrabold text-slate-900">跨產業協作</h2>
+                <p class="mt-1 text-sm text-slate-500">連結品牌、平台、技術與服務，創造共同成長空間。</p>
+              </div>
+            </article>
+            <article class="trust-item reveal" style="transition-delay: 240ms;">
+              <i data-lucide="refresh-cw" class="h-5 w-5 text-blue-600" aria-hidden="true"></i>
+              <div>
+                <h2 class="text-base font-extrabold text-slate-900">訂閱經濟實踐</h2>
+                <p class="mt-1 text-sm text-slate-500">從一次交易走向長期關係，兼顧策略、系統與營運。</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section-spacing" aria-labelledby="about-title">
+        <div class="container-shell">
+          <div class="section-heading reveal">
+            <span class="section-label"><span class="status-dot" aria-hidden="true"></span>About</span>
+            <h2 id="about-title" class="section-title">把科技、商業與營運，整合成真正能被使用的解決方案</h2>
+            <p class="section-description">賴冠淵｜谷萊富科技有限公司創辦人。以創業、管理、AI 教學與跨產業協作的實務視角，協助企業建立更有效率、更可信任，也更能持續成長的運作方式。</p>
+          </div>
+
+          <div class="mt-12 grid gap-8 lg:grid-cols-[.82fr_1.18fr]">
+            <div class="portrait-placeholder glass-panel reveal">
+              <!-- 請在此替換為賴冠淵個人形象照片 -->
+              <div class="portrait-silhouette" aria-hidden="true"></div>
+              <div class="portrait-label">
+                <p class="font-extrabold text-slate-900">賴冠淵｜AI 應用與訂閱商業顧問</p>
+                <p class="mt-1 text-slate-500">個人形象照片預留區｜建議使用明亮、專業、具親和力的半身形象照。</p>
+              </div>
+            </div>
+
+            <div class="grid gap-5 md:grid-cols-2">
+              <article class="bento-card reveal rounded-[1.6rem] p-6 md:col-span-2">
+                <div class="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
+                  <div>
+                    <p class="text-xs font-extrabold tracking-[0.18em] text-blue-600">BRAND MISSION</p>
+                    <h3 class="mt-2 text-2xl font-extrabold text-slate-900">讓科技改善真實的工作與生活</h3>
+                    <p class="mt-3 max-w-2xl text-slate-600">我致力於將 AI 技術、商業模式與實際營運需求整合，協助個人、企業與團隊更有效率地運用科技。創立谷萊富科技的初衷，是建立兼具信任、便利與共創精神的服務平台。</p>
+                  </div>
+                  <span class="icon-box shrink-0"><i data-lucide="orbit" class="h-6 w-6" aria-hidden="true"></i></span>
+                </div>
+                <div class="mt-5 flex flex-wrap gap-2">
+                  <span class="tag">可靠</span><span class="tag">務實</span><span class="tag">創新</span><span class="tag">共創</span><span class="tag">長期價值</span>
+                </div>
+              </article>
+
+              <article class="bento-card reveal rounded-[1.6rem] p-6" style="transition-delay: 70ms;">
+                <span class="icon-box"><i data-lucide="building-2" class="h-6 w-6" aria-hidden="true"></i></span>
+                <h3 class="mt-5 text-xl font-extrabold text-slate-900">跨產業管理與實務</h3>
+                <p class="mt-3 text-sm text-slate-600">過去曾擔任浤洺國際總經理，累積企業經營、團隊管理、品質流程與商業協作經驗；目前以創業者身分投入 AI 與平台服務。</p>
+              </article>
+
+              <article class="bento-card reveal rounded-[1.6rem] p-6" style="transition-delay: 140ms;">
+                <span class="icon-box"><i data-lucide="presentation" class="h-6 w-6" aria-hidden="true"></i></span>
+                <h3 class="mt-5 text-xl font-extrabold text-slate-900">AI 教學與人才培育</h3>
+                <p class="mt-3 text-sm text-slate-600">曾受邀於資策會、工研院、中小企業促進會及民營企業擔任 AI 課程講師，並參與 AI 商盟與 SORA 影片生成教學。</p>
+                <div class="mt-4 flex flex-wrap gap-2">
+                  <span class="tag">生成式 AI</span><span class="tag">流程優化</span><span class="tag">內容製作</span>
+                </div>
+              </article>
+
+              <article class="bento-card reveal rounded-[1.6rem] p-6" style="transition-delay: 210ms;">
+                <span class="icon-box"><i data-lucide="sprout" class="h-6 w-6" aria-hidden="true"></i></span>
+                <h3 class="mt-5 text-xl font-extrabold text-slate-900">投資與產業協作</h3>
+                <p class="mt-3 text-sm text-slate-600">參與投資建興農業科技股份有限公司及鎔合科技有限公司，持續關注農業科技、數位轉型、創新服務、平台經濟與跨產業合作。</p>
+              </article>
+
+              <article class="bento-card reveal rounded-[1.6rem] p-6" style="transition-delay: 280ms;">
+                <span class="icon-box"><i data-lucide="badge-check" class="h-6 w-6" aria-hidden="true"></i></span>
+                <h3 class="mt-5 text-xl font-extrabold text-slate-900">持續精進 AI 專業</h3>
+                <p class="mt-3 text-sm text-slate-600">已完成第十六屆 AI 應用創業顧問師認證班，並積極準備 iPAS 初級 AI 應用規劃師認證，以持續學習、驗證與實踐更新專業能力。</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="mt-10 glass-panel reveal rounded-[1.8rem] p-6 sm:p-8">
+            <div class="grid gap-8 lg:grid-cols-[.72fr_1.28fr] lg:items-start">
+              <div>
+                <p class="text-xs font-extrabold tracking-[0.18em] text-violet-600">PROFESSIONAL ROLES</p>
+                <h3 class="mt-3 text-2xl font-extrabold text-slate-900">多重角色，形成跨域整合視角</h3>
+                <p class="mt-3 text-slate-600">從企業經營、公益法人、協會治理到 AI 教學與訂閱平台實踐，建立兼顧策略、利害關係人與執行面的整合能力。</p>
+              </div>
+              <div class="space-y-7">
+                <div class="timeline-item">
+                  <h4 class="font-extrabold text-slate-900">谷萊富科技有限公司創辦人</h4>
+                  <p class="mt-1 text-sm text-slate-600">推動訂閱制平台、會員經濟、品牌合作與 AI 應用服務。</p>
+                </div>
+                <div class="timeline-item">
+                  <h4 class="font-extrabold text-slate-900">AI 商盟講師／AI 應用創業顧問</h4>
+                  <p class="mt-1 text-sm text-slate-600">以實際工作情境設計 AI 教學、導入方法與應用策略。</p>
+                </div>
+                <div class="timeline-item">
+                  <h4 class="font-extrabold text-slate-900">中華視聽傳播基金會董事</h4>
+                  <p class="mt-1 text-sm text-slate-600">參與公益法人治理與視聽傳播相關公共價值推動。</p>
+                </div>
+                <div class="timeline-item">
+                  <h4 class="font-extrabold text-slate-900">亞太品牌發展協會常務理事</h4>
+                  <p class="mt-1 text-sm text-slate-600">參與品牌發展、會員連結與跨產業資源協作。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section-spacing bg-slate-50/65" aria-labelledby="services-title">
+        <div class="container-shell">
+          <div class="section-heading reveal">
+            <span class="section-label"><span class="status-dot" aria-hidden="true"></span>Services</span>
+            <h2 id="services-title" class="section-title">從問題盤點到能力建立，提供能真正落地的專業服務</h2>
+            <p class="section-description">不以單一工具或短期專案為終點，而是從策略、流程、系統與人才能力出發，協助組織建立可持續運作的解決方案。</p>
+          </div>
+
+          <div class="mt-12 grid gap-5 md:grid-cols-2">
+            <article class="service-card reveal rounded-[1.7rem] p-6 sm:p-7">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="flex items-start justify-between gap-4">
+                <span class="icon-box"><i data-lucide="workflow" class="h-6 w-6" aria-hidden="true"></i></span>
+                <span class="tag">適合：企業團隊／主管</span>
+              </div>
+              <h3 class="mt-6 text-2xl font-extrabold text-slate-900">AI 應用與工作流程優化</h3>
+              <p class="mt-3 text-slate-600">盤點重複性工作、資訊處理與跨部門協作問題，導入生成式 AI、自動化工具與知識管理方法。</p>
+              <div class="mt-5 rounded-2xl bg-blue-50/75 p-4 text-sm font-semibold text-blue-800">不只導入工具，而是讓 AI 真正進入日常工作流程。</div>
+              <button class="service-toggle mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button" aria-expanded="false">
+                了解更多 <i data-lucide="chevron-down" class="expand-chevron h-4 w-4" aria-hidden="true"></i>
+              </button>
+              <div class="service-expand">
+                <div>
+                  <div class="grid gap-3 border-t border-slate-200 pt-4 text-sm text-slate-600 sm:grid-cols-2">
+                    <p><strong class="text-slate-800">可涵蓋：</strong>AI 工作流程、企業知識庫、文件整理、內容自動化、AI 助理、工具選型。</p>
+                    <p><strong class="text-slate-800">解決問題：</strong>資訊分散、重複作業、交接困難、產出不一致、工具導入後無法持續使用。</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal rounded-[1.7rem] p-6 sm:p-7" style="transition-delay: 80ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="flex items-start justify-between gap-4">
+                <span class="icon-box"><i data-lucide="users-round" class="h-6 w-6" aria-hidden="true"></i></span>
+                <span class="tag">適合：企業／組織／協會</span>
+              </div>
+              <h3 class="mt-6 text-2xl font-extrabold text-slate-900">企業 AI 教學與人才培育</h3>
+              <p class="mt-3 text-slate-600">依企業需求設計課程、工作坊與實作訓練，讓團隊從理解工具，進一步建立可持續使用 AI 的能力。</p>
+              <div class="mt-5 rounded-2xl bg-violet-50/75 p-4 text-sm font-semibold text-violet-800">從知道 AI，到能用 AI 解決實際問題。</div>
+              <button class="service-toggle mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button" aria-expanded="false">
+                了解更多 <i data-lucide="chevron-down" class="expand-chevron h-4 w-4" aria-hidden="true"></i>
+              </button>
+              <div class="service-expand">
+                <div>
+                  <div class="grid gap-3 border-t border-slate-200 pt-4 text-sm text-slate-600 sm:grid-cols-2">
+                    <p><strong class="text-slate-800">可涵蓋：</strong>ChatGPT 商業應用、AI 工作流程、內容製作、SORA 影片、部門情境應用、使用規範。</p>
+                    <p><strong class="text-slate-800">解決問題：</strong>學完不會用、部門差異大、缺乏實作場景、沒有內部共識與治理規範。</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="service-card reveal rounded-[1.7rem] p-6 sm:p-7" style="transition-delay: 160ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="flex items-start justify-between gap-4">
+                <span class="icon-box"><i data-lucide="repeat-2" class="h-6 w-6" aria-hidden="true"></i></span>
+                <span class="tag">適合：品牌／電商／平台</span>
+              </div>
+              <h3 class="mt-6 text-2xl font-extrabold text-slate-900">訂閱制及訂閱解決方案</h3>
+              <p class="mt-3 text-slate-600">協助企業將一次性交易轉化為可持續經營的訂閱收入與會員關係，整合商業模式、定價、系統與營運流程。</p>
+              <div class="mt-5 rounded-2xl bg-emerald-50/75 p-4 text-sm font-semibold text-emerald-800">從一次成交，走向長期關係與可預測成長。</div>
+              <a class="mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" href="#subscription">
+                查看完整方案 <i data-lucide="arrow-down-right" class="h-4 w-4" aria-hidden="true"></i>
+              </a>
+            </article>
+
+            <article class="service-card reveal rounded-[1.7rem] p-6 sm:p-7" style="transition-delay: 240ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="flex items-start justify-between gap-4">
+                <span class="icon-box"><i data-lucide="handshake" class="h-6 w-6" aria-hidden="true"></i></span>
+                <span class="tag">適合：品牌／合作夥伴</span>
+              </div>
+              <h3 class="mt-6 text-2xl font-extrabold text-slate-900">品牌聯名與專屬企劃</h3>
+              <p class="mt-3 text-slate-600">結合品牌定位、會員需求、生活方式與跨產業資源，規劃具有差異化的聯名、會員與主題服務企劃。</p>
+              <div class="mt-5 rounded-2xl bg-blue-50/75 p-4 text-sm font-semibold text-blue-800">讓合作不只是曝光，而是共同創造可持續的商業價值。</div>
+              <button class="service-toggle mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button" aria-expanded="false">
+                了解更多 <i data-lucide="chevron-down" class="expand-chevron h-4 w-4" aria-hidden="true"></i>
+              </button>
+              <div class="service-expand">
+                <div>
+                  <div class="grid gap-3 border-t border-slate-200 pt-4 text-sm text-slate-600 sm:grid-cols-2">
+                    <p><strong class="text-slate-800">可涵蓋：</strong>品牌聯名、訂閱選物、會員專屬方案、生活提案、異業合作、平台合作、活動企劃。</p>
+                    <p><strong class="text-slate-800">解決問題：</strong>合作缺乏共同價值、活動一次性、會員感受薄弱、資源無法形成長期機制。</p>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="subscription" class="subscription-section section-spacing" aria-labelledby="subscription-title">
+        <div class="container-shell">
+          <div class="grid gap-8 lg:grid-cols-[1fr_.78fr] lg:items-end">
+            <div class="section-heading reveal">
+              <span class="section-label"><span class="status-dot" aria-hidden="true"></span>Subscription Solution</span>
+              <h2 id="subscription-title" class="section-title">從一次性交易，走向可持續的訂閱成長</h2>
+              <p class="mt-4 text-sm font-extrabold tracking-[0.16em] text-violet-600">SUBSCRIPTION STRATEGY × TECHNOLOGY × OPERATIONS</p>
+            </div>
+            <div class="reveal rounded-[1.5rem] border border-white/85 bg-white/72 p-5 text-slate-600 shadow-soft backdrop-blur-xl" style="transition-delay: 100ms;">
+              <p>谷萊富協助企業將一次性交易，轉化為可持續經營的訂閱收入與會員關係；從商業模式、定價策略、系統架構到營運流程，提供兼具策略規劃與技術落地能力的整合方案。</p>
+            </div>
+          </div>
+
+          <div class="mt-9 grid gap-5 lg:grid-cols-[1.1fr_.9fr]">
+            <article class="glass-panel reveal rounded-[1.8rem] p-6 sm:p-8">
+              <h3 class="text-2xl font-extrabold text-slate-900">一套訂閱服務，需要同時解決四個層次</h3>
+              <p class="mt-3 text-slate-600">週期性計費、多元金流、電子發票、會員權限與自動續訂只是基礎；真正的成長來自策略、體驗、營運與數據彼此連動。</p>
+              <div class="mt-6 grid gap-3 sm:grid-cols-2">
+                <div class="metric-chip"><p class="text-xs font-extrabold text-blue-600">STRATEGY</p><p class="mt-1 font-bold text-slate-900">價值、客群、方案與定價</p></div>
+                <div class="metric-chip"><p class="text-xs font-extrabold text-violet-600">TECHNOLOGY</p><p class="mt-1 font-bold text-slate-900">計費、金流、權限與整合</p></div>
+                <div class="metric-chip"><p class="text-xs font-extrabold text-emerald-600">OPERATIONS</p><p class="mt-1 font-bold text-slate-900">出貨、客服、通知與 SOP</p></div>
+                <div class="metric-chip"><p class="text-xs font-extrabold text-blue-600">GROWTH</p><p class="mt-1 font-bold text-slate-900">留存、流失、LTV 與成長</p></div>
+              </div>
+            </article>
+
+            <article class="glass-panel reveal rounded-[1.8rem] p-6 sm:p-8" style="transition-delay: 100ms;">
+              <div class="flex items-start justify-between gap-4">
+                <div>
+                  <p class="text-xs font-extrabold tracking-[0.18em] text-emerald-600">OPERATING CAPABILITY</p>
+                  <h3 class="mt-2 text-2xl font-extrabold text-slate-900">建立企業自主營運能力</h3>
+                </div>
+                <span class="icon-box"><i data-lucide="gauge" class="h-6 w-6" aria-hidden="true"></i></span>
+              </div>
+              <p class="mt-4 text-slate-600">協助規劃方案分級、免費試用、LTV／CAC、留存與流失預警，並建立跨部門 SOP、營運手冊與團隊培訓機制。</p>
+              <div class="mt-5 flex flex-wrap gap-2">
+                <span class="tag">安全</span><span class="tag">可擴充</span><span class="tag">數據驅動</span><span class="tag">可持續營運</span>
+              </div>
+            </article>
+          </div>
+
+          <div class="mt-10 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+            <article class="solution-card reveal rounded-[1.55rem] p-6">
+              <span class="hover-node" aria-hidden="true"></span>
+              <span class="icon-box"><i data-lucide="boxes" class="h-6 w-6" aria-hidden="true"></i></span>
+              <p class="mt-5 text-xs font-extrabold tracking-[0.16em] text-blue-600">01 / MODEL</p>
+              <h3 class="mt-2 text-xl font-extrabold text-slate-900">訂閱商業模式設計</h3>
+              <p class="mt-3 text-sm text-slate-600">定義目標客群、核心價值、訂閱週期、收入來源、服務邊界與成本結構。</p>
+            </article>
+
+            <article class="solution-card reveal rounded-[1.55rem] p-6" style="transition-delay: 50ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <span class="icon-box"><i data-lucide="badge-dollar-sign" class="h-6 w-6" aria-hidden="true"></i></span>
+              <p class="mt-5 text-xs font-extrabold tracking-[0.16em] text-violet-600">02 / PRICING</p>
+              <h3 class="mt-2 text-xl font-extrabold text-slate-900">方案分級與定價策略</h3>
+              <p class="mt-3 text-sm text-slate-600">規劃月繳、年繳、免費試用、首期優惠、階梯式計價與按用量計費。</p>
+            </article>
+
+            <article class="solution-card reveal rounded-[1.55rem] p-6" style="transition-delay: 100ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <span class="icon-box"><i data-lucide="credit-card" class="h-6 w-6" aria-hidden="true"></i></span>
+              <p class="mt-5 text-xs font-extrabold tracking-[0.16em] text-emerald-600">03 / BILLING</p>
+              <h3 class="mt-2 text-xl font-extrabold text-slate-900">訂閱計費與多元金流</h3>
+              <p class="mt-3 text-sm text-slate-600">週期性扣款、信用卡、多元支付、電子發票、扣款失敗重試與帳務對帳。</p>
+            </article>
+
+            <article class="solution-card reveal rounded-[1.55rem] p-6" style="transition-delay: 150ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <span class="icon-box"><i data-lucide="shield-check" class="h-6 w-6" aria-hidden="true"></i></span>
+              <p class="mt-5 text-xs font-extrabold tracking-[0.16em] text-blue-600">04 / ACCESS</p>
+              <h3 class="mt-2 text-xl font-extrabold text-slate-900">會員與權限管理</h3>
+              <p class="mt-3 text-sm text-slate-600">會員分級、方案權限、升降級、暫停恢復、自動續訂與取消訂閱。</p>
+            </article>
+
+            <article class="solution-card reveal rounded-[1.55rem] p-6" style="transition-delay: 200ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <span class="icon-box"><i data-lucide="waypoints" class="h-6 w-6" aria-hidden="true"></i></span>
+              <p class="mt-5 text-xs font-extrabold tracking-[0.16em] text-violet-600">05 / AUTOMATION</p>
+              <h3 class="mt-2 text-xl font-extrabold text-slate-900">營運流程自動化</h3>
+              <p class="mt-3 text-sm text-slate-600">串接電商、ERP、CRM、物流、客服、通知與數據儀表板。</p>
+            </article>
+
+            <article class="solution-card reveal rounded-[1.55rem] p-6" style="transition-delay: 250ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <span class="icon-box"><i data-lucide="heart-pulse" class="h-6 w-6" aria-hidden="true"></i></span>
+              <p class="mt-5 text-xs font-extrabold tracking-[0.16em] text-emerald-600">06 / RETENTION</p>
+              <h3 class="mt-2 text-xl font-extrabold text-slate-900">留存與流失管理</h3>
+              <p class="mt-3 text-sm text-slate-600">會員生命週期、行為分析、流失預警、退訂原因、挽留與再行銷。</p>
+            </article>
+
+            <article class="solution-card reveal rounded-[1.55rem] p-6" style="transition-delay: 300ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <span class="icon-box"><i data-lucide="chart-no-axes-combined" class="h-6 w-6" aria-hidden="true"></i></span>
+              <p class="mt-5 text-xs font-extrabold tracking-[0.16em] text-blue-600">07 / METRICS</p>
+              <h3 class="mt-2 text-xl font-extrabold text-slate-900">數據與成長指標</h3>
+              <p class="mt-3 text-sm text-slate-600">建立 MRR、ARR、ARPU、LTV、CAC、Churn、Retention 與 Renewal 指標。</p>
+            </article>
+
+            <article class="solution-card reveal rounded-[1.55rem] p-6" style="transition-delay: 350ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <span class="icon-box"><i data-lucide="clipboard-check" class="h-6 w-6" aria-hidden="true"></i></span>
+              <p class="mt-5 text-xs font-extrabold tracking-[0.16em] text-violet-600">08 / ENABLEMENT</p>
+              <h3 class="mt-2 text-xl font-extrabold text-slate-900">團隊培訓與 SOP</h3>
+              <p class="mt-3 text-sm text-slate-600">跨部門流程、客服規範、退款取消、營運手冊、指標管理與教育訓練。</p>
+            </article>
+          </div>
+
+          <div class="mt-12 glass-panel reveal rounded-[1.9rem] p-6 sm:p-8">
+            <div class="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
+              <div>
+                <p class="text-xs font-extrabold tracking-[0.18em] text-blue-600">TRANSFORMATION PATH</p>
+                <h3 class="mt-2 text-2xl font-extrabold text-slate-900">訂閱轉型八步驟</h3>
+              </div>
+              <p class="max-w-xl text-sm text-slate-500">桌機橫向掌握全貌，手機自動轉為垂直流程，讓每個階段的任務與責任更清楚。</p>
+            </div>
+
+            <div class="process-track mt-8 grid gap-5 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-8">
+              <div class="process-node text-center"><span class="process-number">01</span><p class="mt-3 text-sm font-bold text-slate-800">需求盤點</p></div>
+              <div class="process-node text-center"><span class="process-number">02</span><p class="mt-3 text-sm font-bold text-slate-800">商業模式</p></div>
+              <div class="process-node text-center"><span class="process-number">03</span><p class="mt-3 text-sm font-bold text-slate-800">方案定價</p></div>
+              <div class="process-node text-center"><span class="process-number">04</span><p class="mt-3 text-sm font-bold text-slate-800">系統金流</p></div>
+              <div class="process-node text-center"><span class="process-number">05</span><p class="mt-3 text-sm font-bold text-slate-800">營運流程</p></div>
+              <div class="process-node text-center"><span class="process-number">06</span><p class="mt-3 text-sm font-bold text-slate-800">正式上線</p></div>
+              <div class="process-node text-center"><span class="process-number">07</span><p class="mt-3 text-sm font-bold text-slate-800">數據優化</p></div>
+              <div class="process-node text-center"><span class="process-number">08</span><p class="mt-3 text-sm font-bold text-slate-800">留存成長</p></div>
+            </div>
+
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <p class="text-sm text-slate-500">適用於從零建立訂閱服務，或優化既有會員制與續訂流程。</p>
+              <a
+                class="cta-button cta-primary sm:w-auto"
+                href="https://calendar.app.google/wJdZW2vFkmToT52T8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>預約訂閱轉型諮詢</span>
+                <i data-lucide="arrow-up-right" class="arrow-icon h-4 w-4" aria-hidden="true"></i>
+                <span class="status-tooltip">Status: Ready to Connect</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section-spacing" aria-labelledby="portfolio-title">
+        <div class="container-shell">
+          <div class="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+            <div class="section-heading reveal">
+              <span class="section-label"><span class="status-dot" aria-hidden="true"></span>Portfolio</span>
+              <h2 id="portfolio-title" class="section-title">作品與案例類型</h2>
+              <p class="section-description">目前先以案例類型與可替換欄位展示，待專案內容完成整理後再逐步公開；不使用未經確認的客戶名稱、品牌 Logo 或成果數據。</p>
+            </div>
+            <div class="reveal rounded-2xl border border-amber-200 bg-amber-50/70 px-4 py-3 text-sm font-semibold text-amber-800">案例內容整理中｜專案資料將陸續公開</div>
+          </div>
+
+          <div class="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+            <article class="portfolio-card reveal rounded-[1.6rem]">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="case-image-placeholder"><span class="case-placeholder-label">可替換為實際案例圖片</span></div>
+              <div class="p-6">
+                <span class="tag">AI 企業內訓</span>
+                <h3 class="mt-4 text-xl font-extrabold text-slate-900">企業 AI 課程與實作訓練設計</h3>
+                <dl class="mt-4 space-y-2 text-sm text-slate-600">
+                  <div><dt class="inline font-bold text-slate-800">面臨問題：</dt><dd class="inline"> 團隊知道 AI，卻缺乏工作情境與實作方法。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">解決方法：</dt><dd class="inline"> 依部門需求設計案例、提示詞與操作流程。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">可衡量指標：</dt><dd class="inline"> 完成率、應用率、流程時間與產出品質。</dd></div>
+                </dl>
+                <button class="case-button mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button">查看案例 <i data-lucide="arrow-right" class="h-4 w-4" aria-hidden="true"></i></button>
+              </div>
+            </article>
+
+            <article class="portfolio-card reveal rounded-[1.6rem]" style="transition-delay: 70ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="case-image-placeholder"><span class="case-placeholder-label">專案資料將陸續公開</span></div>
+              <div class="p-6">
+                <span class="tag">工作流程導入</span>
+                <h3 class="mt-4 text-xl font-extrabold text-slate-900">生成式 AI 工作流程導入</h3>
+                <dl class="mt-4 space-y-2 text-sm text-slate-600">
+                  <div><dt class="inline font-bold text-slate-800">面臨問題：</dt><dd class="inline"> 重複性文件、資訊整理與跨部門溝通耗時。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">解決方法：</dt><dd class="inline"> 建立 AI 助理、知識庫與標準化流程。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">可衡量指標：</dt><dd class="inline"> 處理時間、返工率、採用率與一致性。</dd></div>
+                </dl>
+                <button class="case-button mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button">查看案例 <i data-lucide="arrow-right" class="h-4 w-4" aria-hidden="true"></i></button>
+              </div>
+            </article>
+
+            <article class="portfolio-card reveal rounded-[1.6rem]" style="transition-delay: 140ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="case-image-placeholder"><span class="case-placeholder-label">可替換為實際案例內容</span></div>
+              <div class="p-6">
+                <span class="tag">訂閱商業模式</span>
+                <h3 class="mt-4 text-xl font-extrabold text-slate-900">訂閱制商業模式與方案規劃</h3>
+                <dl class="mt-4 space-y-2 text-sm text-slate-600">
+                  <div><dt class="inline font-bold text-slate-800">面臨問題：</dt><dd class="inline"> 一次性營收波動，會員關係與續購機制不足。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">解決方法：</dt><dd class="inline"> 設計價值主張、方案定價、流程與指標。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">可衡量指標：</dt><dd class="inline"> 留存、續訂、ARPU、LTV 與 Churn。</dd></div>
+                </dl>
+                <button class="case-button mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button">查看案例 <i data-lucide="arrow-right" class="h-4 w-4" aria-hidden="true"></i></button>
+              </div>
+            </article>
+
+            <article class="portfolio-card reveal rounded-[1.6rem]" style="transition-delay: 210ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="case-image-placeholder"><span class="case-placeholder-label">案例內容整理中</span></div>
+              <div class="p-6">
+                <span class="tag">品牌聯名</span>
+                <h3 class="mt-4 text-xl font-extrabold text-slate-900">品牌聯名與生活提案企劃</h3>
+                <dl class="mt-4 space-y-2 text-sm text-slate-600">
+                  <div><dt class="inline font-bold text-slate-800">面臨問題：</dt><dd class="inline"> 合作偏一次性曝光，缺乏會員價值與延續性。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">解決方法：</dt><dd class="inline"> 整合品牌定位、內容、產品與會員情境。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">可衡量指標：</dt><dd class="inline"> 參與、轉換、續購、互動與合作延伸。</dd></div>
+                </dl>
+                <button class="case-button mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button">查看案例 <i data-lucide="arrow-right" class="h-4 w-4" aria-hidden="true"></i></button>
+              </div>
+            </article>
+
+            <article class="portfolio-card reveal rounded-[1.6rem]" style="transition-delay: 280ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="case-image-placeholder"><span class="case-placeholder-label">可替換為課程畫面</span></div>
+              <div class="p-6">
+                <span class="tag">AI 內容與影像</span>
+                <h3 class="mt-4 text-xl font-extrabold text-slate-900">AI 內容與 SORA 影像教學</h3>
+                <dl class="mt-4 space-y-2 text-sm text-slate-600">
+                  <div><dt class="inline font-bold text-slate-800">面臨問題：</dt><dd class="inline"> 內容產製缺乏方法、品質控制與敘事一致性。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">解決方法：</dt><dd class="inline"> 建立腳本、鏡頭、提示與品質檢核流程。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">可衡量指標：</dt><dd class="inline"> 製作效率、完成度、可用率與一致性。</dd></div>
+                </dl>
+                <button class="case-button mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button">查看案例 <i data-lucide="arrow-right" class="h-4 w-4" aria-hidden="true"></i></button>
+              </div>
+            </article>
+
+            <article class="portfolio-card reveal rounded-[1.6rem]" style="transition-delay: 350ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="case-image-placeholder"><span class="case-placeholder-label">專案資料將陸續公開</span></div>
+              <div class="p-6">
+                <span class="tag">跨產業平台</span>
+                <h3 class="mt-4 text-xl font-extrabold text-slate-900">跨產業平台與創新服務</h3>
+                <dl class="mt-4 space-y-2 text-sm text-slate-600">
+                  <div><dt class="inline font-bold text-slate-800">面臨問題：</dt><dd class="inline"> 資源分散、角色複雜、合作價值與責任不清。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">解決方法：</dt><dd class="inline"> 定義生態角色、流程、治理與共同價值。</dd></div>
+                  <div><dt class="inline font-bold text-slate-800">可衡量指標：</dt><dd class="inline"> 參與方、服務效率、留存與合作延伸。</dd></div>
+                </dl>
+                <button class="case-button mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button">查看案例 <i data-lucide="arrow-right" class="h-4 w-4" aria-hidden="true"></i></button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="insights" class="section-spacing bg-slate-50/65" aria-labelledby="insights-title">
+        <div class="container-shell">
+          <div class="section-heading reveal">
+            <span class="section-label"><span class="status-dot" aria-hidden="true"></span>Insights</span>
+            <h2 id="insights-title" class="section-title">專業洞察</h2>
+            <p class="section-description">聚焦生成式 AI、工作流程、訂閱經濟、會員成長與數位轉型，將複雜概念整理成可理解、可判斷、可採取行動的內容。</p>
+          </div>
+
+          <div class="mt-12 grid gap-5 md:grid-cols-3">
+            <article class="insight-card reveal rounded-[1.6rem]">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="insight-cover flex items-end p-5"><span class="tag bg-white/90">AI 工作流程</span></div>
+              <div class="p-6">
+                <h3 class="text-xl font-extrabold leading-snug text-slate-900">企業導入 AI，應該先買工具，還是先改流程？</h3>
+                <p class="mt-3 text-sm text-slate-600">從問題定義、流程盤點與採用條件，理解 AI 導入的正確起點。</p>
+                <button class="article-button mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button">閱讀文章 <i data-lucide="arrow-right" class="h-4 w-4" aria-hidden="true"></i></button>
+              </div>
+            </article>
+
+            <article class="insight-card reveal rounded-[1.6rem]" style="transition-delay: 90ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="insight-cover flex items-end p-5"><span class="tag bg-white/90">訂閱經濟</span></div>
+              <div class="p-6">
+                <h3 class="text-xl font-extrabold leading-snug text-slate-900">從一次成交到長期關係：訂閱商業模式的核心邏輯</h3>
+                <p class="mt-3 text-sm text-slate-600">訂閱不是改成月繳，而是重構價值交付、關係與營運指標。</p>
+                <button class="article-button mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button">閱讀文章 <i data-lucide="arrow-right" class="h-4 w-4" aria-hidden="true"></i></button>
+              </div>
+            </article>
+
+            <article class="insight-card reveal rounded-[1.6rem]" style="transition-delay: 180ms;">
+              <span class="hover-node" aria-hidden="true"></span>
+              <div class="insight-cover flex items-end p-5"><span class="tag bg-white/90">生成式 AI</span></div>
+              <div class="p-6">
+                <h3 class="text-xl font-extrabold leading-snug text-slate-900">生成式 AI 不只是內容工具，更是企業的新型基礎能力</h3>
+                <p class="mt-3 text-sm text-slate-600">從個人工具走向組織能力，需要知識、流程、治理與人才同步升級。</p>
+                <button class="article-button mt-5 inline-flex min-h-11 items-center gap-2 font-bold text-blue-700" type="button">閱讀文章 <i data-lucide="arrow-right" class="h-4 w-4" aria-hidden="true"></i></button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section section-spacing" aria-labelledby="contact-title">
+        <div class="container-shell relative z-10">
+          <div class="glass-panel grid gap-8 rounded-[2rem] p-6 sm:p-10 lg:grid-cols-[1.08fr_.92fr] lg:items-center">
+            <div class="reveal">
+              <span class="section-label"><span class="status-dot" aria-hidden="true"></span>Let's Connect</span>
+              <h2 id="contact-title" class="section-title">讓 AI、商業模式與實際營運，真正連結起來</h2>
+              <p class="section-description">無論您正在規劃 AI 導入、企業內訓、訂閱服務、品牌聯名或跨產業合作，都可以從一次具體的對話開始。先釐清問題，再找出最適合落地的方向。</p>
+              <div class="mt-8">
+                <p class="text-xs font-extrabold tracking-[0.18em] text-blue-600">核心產品與技術解決方案</p>
+              </div>
+              <div class="mt-4 grid gap-4 md:grid-cols-3">
+                <article class="rounded-[1.3rem] border border-slate-200/80 bg-white/80 p-4 shadow-sm">
+                  <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-blue-50 text-blue-700">
+                    <i class="fa-solid fa-chart-line text-lg" aria-hidden="true"></i>
+                  </div>
+                  <h3 class="mt-4 text-lg font-extrabold text-slate-900">公司健檢及訂閱制評估</h3>
+                  <p class="mt-2 text-sm text-slate-600">深入分析企業現有營運現況與財務架構，精準評估導入訂閱制的可行性與潛在市場契機，為轉型奠定穩固基礎。</p>
+                </article>
+                <article class="rounded-[1.3rem] border border-slate-200/80 bg-white/80 p-4 shadow-sm">
+                  <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-violet-50 text-violet-700">
+                    <i class="fa-solid fa-sitemap text-lg" aria-hidden="true"></i>
+                  </div>
+                  <h3 class="mt-4 text-lg font-extrabold text-slate-900">梳理商業模式及訂閱模式</h3>
+                  <p class="mt-2 text-sm text-slate-600">協助重新定義產品價值與顧客旅程，量身打造最適合企業的訂閱定價策略與持續性獲利模型，實現可預測的穩定營收。</p>
+                </article>
+                <article class="rounded-[1.3rem] border border-slate-200/80 bg-white/80 p-4 shadow-sm">
+                  <div class="flex h-11 w-11 items-center justify-center rounded-2xl bg-emerald-50 text-emerald-700">
+                    <i class="fa-brands fa-github text-lg" aria-hidden="true"></i>
+                  </div>
+                  <h3 class="mt-4 text-lg font-extrabold text-slate-900">建置訂閱制及相關資源</h3>
+                  <p class="mt-2 text-sm text-slate-600">提供從技術系統串接、金流自動扣款部署到後續運營資源整合的一站式解決方案，讓訂閱服務迅速順利上線。</p>
+                </article>
+              </div>
+
+              <div class="mt-6 rounded-[1.5rem] border border-slate-200/80 bg-slate-50/70 p-5">
+                <p class="text-xs font-extrabold tracking-[0.18em] text-slate-500">DEPENDENCIES</p>
+                <div class="mt-4 grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+                  <a class="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 text-sm font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-blue-300 hover:text-blue-700" href="https://aistudy.pse.is/linemdsgroup" target="_blank" rel="noopener noreferrer">
+                    <span class="flex h-10 w-10 items-center justify-center rounded-2xl bg-green-50 text-green-600"><i class="fa-brands fa-line text-lg" aria-hidden="true"></i></span>
+                    <span>LINE</span>
+                  </a>
+                  <a class="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 text-sm font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-blue-300 hover:text-blue-700" href="https://www.facebook.com/MarketingDataScienceTMR/" target="_blank" rel="noopener noreferrer">
+                    <span class="flex h-10 w-10 items-center justify-center rounded-2xl bg-blue-50 text-blue-600"><i class="fa-brands fa-facebook-f text-lg" aria-hidden="true"></i></span>
+                    <span>Facebook</span>
+                  </a>
+                  <a class="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 text-sm font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-blue-300 hover:text-blue-700" href="https://www.linkedin.com/in/howardzhong/" target="_blank" rel="noopener noreferrer">
+                    <span class="flex h-10 w-10 items-center justify-center rounded-2xl bg-sky-50 text-sky-600"><i class="fa-brands fa-linkedin-in text-lg" aria-hidden="true"></i></span>
+                    <span>LinkedIn</span>
+                  </a>
+                  <a class="flex items-center gap-3 rounded-2xl border border-slate-200 bg-white p-3 text-sm font-semibold text-slate-700 transition hover:-translate-y-0.5 hover:border-blue-300 hover:text-blue-700" href="https://github.com/HowardNTUST" target="_blank" rel="noopener noreferrer">
+                    <span class="flex h-10 w-10 items-center justify-center rounded-2xl bg-slate-100 text-slate-700"><i class="fa-brands fa-github text-lg" aria-hidden="true"></i></span>
+                    <span>GitHub</span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="mt-6 rounded-[1.5rem] border border-dashed border-blue-200 bg-blue-50/70 p-5">
+                <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                  <div>
+                    <p class="text-xs font-extrabold tracking-[0.18em] text-blue-600">需求表單</p>
+                    <h3 class="mt-2 text-lg font-extrabold text-slate-900">填寫需求表單</h3>
+                    <p class="mt-1 text-sm text-slate-600">把您的需求、目標與時間軸提供給我，讓我們可以更快找到最適合的合作方式。</p>
+                  </div>
+                  <a class="inline-flex min-h-11 items-center justify-center rounded-full bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition hover:bg-blue-700" href="https://forms.gle/trCnKGqaoD4vxUZY6" target="_blank" rel="noopener noreferrer">
+                    開啟 Google Form
+                  </a>
+                </div>
+              </div>
+
+              <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+                <a
+                  class="cta-button cta-primary"
+                  href="https://calendar.app.google/wJdZW2vFkmToT52T8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>預約一對一諮詢</span>
+                  <i data-lucide="calendar-check" class="arrow-icon h-4 w-4" aria-hidden="true"></i>
+                  <span class="status-tooltip">Status: Ready to Connect</span>
+                </a>
+                <span class="text-sm text-slate-500">Google Calendar 線上預約｜開啟新分頁</span>
+              </div>
+            </div>
+
+            <div class="network-visual reveal" aria-hidden="true" style="transition-delay: 140ms;">
+              <div class="network-line" style="left: 20%; top: 29%; width: 42%; transform: rotate(19deg);"></div>
+              <div class="network-line" style="left: 38%; top: 54%; width: 35%; transform: rotate(-22deg);"></div>
+              <div class="network-line" style="left: 18%; top: 72%; width: 50%; transform: rotate(-7deg);"></div>
+              <div class="network-line" style="left: 50%; top: 20%; width: 28%; transform: rotate(58deg);"></div>
+              <span class="network-node" style="left: 12%; top: 18%;"><i data-lucide="brain-circuit" class="h-5 w-5"></i></span>
+              <span class="network-node" style="left: 56%; top: 28%;"><i data-lucide="workflow" class="h-5 w-5"></i></span>
+              <span class="network-node" style="left: 34%; top: 58%;"><i data-lucide="repeat-2" class="h-5 w-5"></i></span>
+              <span class="network-node" style="left: 72%; top: 62%;"><i data-lucide="handshake" class="h-5 w-5"></i></span>
+              <span class="network-node" style="left: 12%; top: 72%;"><i data-lucide="sparkles" class="h-5 w-5"></i></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="border-t border-slate-200 bg-white/78 py-10 backdrop-blur-xl">
+      <div class="container-shell grid gap-8 lg:grid-cols-[1.15fr_.85fr]">
+        <div>
+          <div class="flex items-center gap-3">
+            <span class="grid h-10 w-10 place-items-center rounded-2xl bg-gradient-to-br from-blue-600 to-violet-600 text-sm font-extrabold text-white">K</span>
+            <div>
+              <p class="font-extrabold text-slate-900">賴冠淵｜AI 應用與訂閱商業顧問</p>
+              <p class="text-xs font-semibold tracking-[0.08em] text-slate-500">AI × SUBSCRIPTION × INNOVATION</p>
+            </div>
+          </div>
+          <p class="mt-4 max-w-xl text-sm text-slate-600">連結 AI、商業模式與真實需求，創造可持續的長期價值。</p>
+          <div class="mt-5 flex flex-wrap gap-2" aria-label="社群與聯絡方式預留區">
+            <!-- 請在此加入正式社群連結，未提供前不建立虛構網址 -->
+            <span class="tag">社群連結：待補充</span>
+            <!-- 請在此加入正式電子信箱，未提供前不建立 mailto 連結 -->
+            <span class="tag">電子信箱：待補充</span>
+          </div>
+        </div>
+
+        <div class="lg:text-right">
+          <p class="text-sm font-extrabold text-slate-900">快速導覽</p>
+          <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2 lg:justify-end">
+            <a class="text-sm font-semibold text-slate-500 hover:text-blue-700" href="#about">關於我</a>
+            <a class="text-sm font-semibold text-slate-500 hover:text-blue-700" href="#services">專業服務</a>
+            <a class="text-sm font-semibold text-slate-500 hover:text-blue-700" href="#subscription">訂閱方案</a>
+            <a class="text-sm font-semibold text-slate-500 hover:text-blue-700" href="#portfolio">作品案例</a>
+            <a class="text-sm font-semibold text-slate-500 hover:text-blue-700" href="#insights">專業洞察</a>
+            <a class="text-sm font-semibold text-blue-700" href="https://calendar.app.google/wJdZW2vFkmToT52T8" target="_blank" rel="noopener noreferrer">預約諮詢</a>
+          </div>
+          <p class="mt-6 text-xs text-slate-400">© 2026 Kuan-Yuan Lai. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const bookingUrl = 'https://calendar.app.google/wJdZW2vFkmToT52T8';
+
+      // 初始化 Lucide Icons
+      if (window.lucide) {
+        window.lucide.createIcons();
+      }
+
+      // 導覽列滾動狀態
+      const header = document.getElementById('site-header');
+      const updateHeader = () => {
+        header.classList.toggle('is-scrolled', window.scrollY > 12);
+      };
+      updateHeader();
+      window.addEventListener('scroll', updateHeader, { passive: true });
+
+      // 手機選單
+      const menuButton = document.getElementById('mobile-menu-button');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileLinks = document.querySelectorAll('.mobile-nav-link');
+
+      const setMenuState = (open) => {
+        mobileMenu.classList.toggle('is-open', open);
+        mobileMenu.setAttribute('aria-hidden', String(!open));
+        menuButton.setAttribute('aria-expanded', String(open));
+        menuButton.setAttribute('aria-label', open ? '關閉導覽選單' : '開啟導覽選單');
+        menuButton.innerHTML = `<i data-lucide="${open ? 'x' : 'menu'}" class="h-5 w-5" aria-hidden="true"></i>`;
+        if (window.lucide) window.lucide.createIcons();
+      };
+
+      menuButton.addEventListener('click', () => {
+        const isOpen = menuButton.getAttribute('aria-expanded') === 'true';
+        setMenuState(!isOpen);
+      });
+
+      mobileLinks.forEach((link) => link.addEventListener('click', () => setMenuState(false)));
+
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape' && menuButton.getAttribute('aria-expanded') === 'true') {
+          setMenuState(false);
+          menuButton.focus();
+        }
+      });
+
+      // Hero 打字機動畫：只播放一次，完成後保留完整文字
+      const typeLine1 = document.getElementById('type-line-1');
+      const typeLine2 = document.getElementById('type-line-2');
+      const typeCursor = document.getElementById('type-cursor');
+      const line1Parts = [
+        { text: '讓每一次交易，成為一段', gradient: false },
+        { text: '長期關係', gradient: true }
+      ];
+      const line2Parts = [
+        { text: '從一次成交，到', gradient: false },
+        { text: '終身價值', gradient: true }
+      ];
+
+      const renderParts = (target, parts, visibleCount) => {
+        let remaining = visibleCount;
+        target.innerHTML = '';
+        parts.forEach((part) => {
+          if (remaining <= 0) return;
+          const visibleText = part.text.slice(0, remaining);
+          if (!visibleText) return;
+          const span = document.createElement('span');
+          span.textContent = visibleText;
+          if (part.gradient) span.className = 'gradient-text';
+          target.appendChild(span);
+          remaining -= visibleText.length;
+        });
+      };
+
+      const getLength = (parts) => parts.reduce((sum, part) => sum + part.text.length, 0);
+
+      const typeParts = (target, parts, speed = 72) => new Promise((resolve) => {
+        let index = 0;
+        const total = getLength(parts);
+        const tick = () => {
+          index += 1;
+          renderParts(target, parts, index);
+          if (index < total) {
+            window.setTimeout(tick, speed + Math.random() * 28);
+          } else {
+            resolve();
+          }
+        };
+        tick();
+      });
+
+      const runTypewriter = async () => {
+        if (prefersReducedMotion) {
+          renderParts(typeLine1, line1Parts, getLength(line1Parts));
+          renderParts(typeLine2, line2Parts, getLength(line2Parts));
+          typeCursor.hidden = true;
+          return;
+        }
+        await typeParts(typeLine1, line1Parts, 58);
+        await new Promise((resolve) => window.setTimeout(resolve, 380));
+        await typeParts(typeLine2, line2Parts, 62);
+        window.setTimeout(() => { typeCursor.style.opacity = '0.7'; }, 800);
+      };
+      runTypewriter();
+
+      // Scroll Reveal
+      const revealItems = document.querySelectorAll('.reveal');
+      if (prefersReducedMotion || !('IntersectionObserver' in window)) {
+        revealItems.forEach((item) => item.classList.add('is-visible'));
+      } else {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+        revealItems.forEach((item) => revealObserver.observe(item));
+      }
+
+      // 導覽列 Active Section
+      const sectionIds = ['home', 'about', 'services', 'subscription', 'portfolio', 'insights', 'contact'];
+      const sections = sectionIds.map((id) => document.getElementById(id)).filter(Boolean);
+      const desktopNavLinks = Array.from(document.querySelectorAll('[data-nav-link]'));
+
+      const updateActiveLink = (activeId) => {
+        desktopNavLinks.forEach((link) => {
+          const isActive = link.getAttribute('href') === `#${activeId}`;
+          link.classList.toggle('is-active', isActive);
+          if (isActive) link.setAttribute('aria-current', 'page');
+          else link.removeAttribute('aria-current');
+        });
+      };
+
+      if ('IntersectionObserver' in window) {
+        const sectionObserver = new IntersectionObserver((entries) => {
+          const visible = entries
+            .filter((entry) => entry.isIntersecting)
+            .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+          if (visible) updateActiveLink(visible.target.id);
+        }, { rootMargin: '-25% 0px -62% 0px', threshold: [0.01, 0.1, 0.3, 0.6] });
+        sections.forEach((section) => sectionObserver.observe(section));
+      }
+
+      // 服務卡片展開／收合
+      document.querySelectorAll('.service-toggle').forEach((button) => {
+        button.addEventListener('click', () => {
+          const card = button.closest('.service-card');
+          const expanded = card.classList.toggle('is-expanded');
+          button.setAttribute('aria-expanded', String(expanded));
+        });
+      });
+
+      // Toast 訊息
+      const toast = document.getElementById('toast');
+      let toastTimer;
+      const showToast = (message) => {
+        window.clearTimeout(toastTimer);
+        toast.textContent = message;
+        toast.classList.add('is-visible');
+        toastTimer = window.setTimeout(() => toast.classList.remove('is-visible'), 3200);
+      };
+
+      document.querySelectorAll('.case-button').forEach((button) => {
+        button.addEventListener('click', () => showToast('案例內容整理中，專案資料將陸續公開。'));
+      });
+
+      document.querySelectorAll('.article-button').forEach((button) => {
+        button.addEventListener('click', () => showToast('專業文章即將陸續公開。'));
+      });
+
+      // 保護主要預約連結一致性（便於日後只改 bookingUrl）
+      document.querySelectorAll(`a[href="${bookingUrl}"]`).forEach((link) => {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      });
+
+      // Canvas 淡色資料節點背景
+      const canvas = document.getElementById('data-canvas');
+      const ctx = canvas.getContext('2d');
+      let animationFrame = null;
+      let points = [];
+      let width = 0;
+      let height = 0;
+      let dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+      const createPoints = () => {
+        const mobile = window.innerWidth < 768;
+        const density = mobile ? 1 / 34000 : 1 / 24000;
+        const count = Math.max(mobile ? 18 : 34, Math.min(mobile ? 30 : 62, Math.round(width * height * density)));
+        points = Array.from({ length: count }, () => ({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          vx: (Math.random() - 0.5) * (mobile ? 0.11 : 0.16),
+          vy: (Math.random() - 0.5) * (mobile ? 0.11 : 0.16),
+          radius: Math.random() * 1.15 + 0.55
+        }));
+      };
+
+      const resizeCanvas = () => {
+        width = window.innerWidth;
+        height = window.innerHeight;
+        dpr = Math.min(window.devicePixelRatio || 1, 2);
+        canvas.width = Math.floor(width * dpr);
+        canvas.height = Math.floor(height * dpr);
+        canvas.style.width = `${width}px`;
+        canvas.style.height = `${height}px`;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        createPoints();
+      };
+
+      const drawCanvas = () => {
+        ctx.clearRect(0, 0, width, height);
+        const maxDistance = window.innerWidth < 768 ? 105 : 135;
+
+        points.forEach((point) => {
+          point.x += point.vx;
+          point.y += point.vy;
+          if (point.x < -10 || point.x > width + 10) point.vx *= -1;
+          if (point.y < -10 || point.y > height + 10) point.vy *= -1;
+
+          ctx.beginPath();
+          ctx.arc(point.x, point.y, point.radius, 0, Math.PI * 2);
+          ctx.fillStyle = 'rgba(37, 99, 235, 0.23)';
+          ctx.fill();
+        });
+
+        for (let i = 0; i < points.length; i += 1) {
+          for (let j = i + 1; j < points.length; j += 1) {
+            const dx = points[i].x - points[j].x;
+            const dy = points[i].y - points[j].y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            if (distance < maxDistance) {
+              const opacity = (1 - distance / maxDistance) * 0.115;
+              ctx.beginPath();
+              ctx.moveTo(points[i].x, points[i].y);
+              ctx.lineTo(points[j].x, points[j].y);
+              ctx.strokeStyle = `rgba(99, 102, 241, ${opacity})`;
+              ctx.lineWidth = 0.75;
+              ctx.stroke();
+            }
+          }
+        }
+
+        animationFrame = window.requestAnimationFrame(drawCanvas);
+      };
+
+      if (!prefersReducedMotion && ctx) {
+        resizeCanvas();
+        drawCanvas();
+        let resizeTimer;
+        window.addEventListener('resize', () => {
+          window.clearTimeout(resizeTimer);
+          resizeTimer = window.setTimeout(resizeCanvas, 180);
+        }, { passive: true });
+      } else {
+        canvas.style.display = 'none';
+      }
+
+      // 頁面離開時停止動畫，降低資源占用
+      document.addEventListener('visibilitychange', () => {
+        if (prefersReducedMotion || !ctx) return;
+        if (document.hidden && animationFrame) {
+          window.cancelAnimationFrame(animationFrame);
+          animationFrame = null;
+        } else if (!document.hidden && !animationFrame) {
+          drawCanvas();
+        }
+      });
+    });
+  </script>
+</body>
+</html>
