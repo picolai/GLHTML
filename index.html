@@ -170,6 +170,7 @@
     html {
       scroll-behavior: smooth;
       scroll-padding-top: 88px;
+      font-size: 112.5%;
     }
 
     body {
@@ -177,7 +178,7 @@
       color: var(--ink);
       background: #ffffff;
       font-family: Inter, "Noto Sans TC", system-ui, sans-serif;
-      line-height: 1.7;
+      line-height: 1.78;
       overflow-x: hidden;
       text-rendering: optimizeLegibility;
       -webkit-font-smoothing: antialiased;
@@ -458,8 +459,8 @@
     .hero-description {
       max-width: 820px;
       color: var(--gray-700);
-      font-size: clamp(1.02rem, 1.7vw, 1.18rem);
-      line-height: 1.85;
+      font-size: clamp(1.1rem, 1.7vw, 1.25rem);
+      line-height: 1.9;
     }
 
     .hero-dashboard {
@@ -591,15 +592,22 @@
     .trust-strip {
       position: relative;
       z-index: 2;
-      margin-top: -2.5rem;
+      margin-top: 0;
+      padding-top: 2rem;
     }
 
     .trust-item {
+      position: relative;
       display: flex;
-      min-height: 138px;
+      min-height: auto;
       flex-direction: column;
-      justify-content: space-between;
-      border-right: 1px solid var(--border);
+      justify-content: flex-start;
+      gap: 1rem;
+      padding: 1.5rem 1.6rem;
+      border: 1px solid rgba(var(--gray-200-rgb), 0.9);
+      border-radius: 1.35rem;
+      background: rgba(255, 255, 255, 0.94);
+      box-shadow: 0 16px 44px rgba(15, 23, 42, 0.06);
     }
 
     .section-heading {
@@ -608,9 +616,9 @@
 
     .section-title {
       margin-top: 1rem;
-      font-size: clamp(2.15rem, 5vw, 3.35rem);
+      font-size: clamp(2.4rem, 5vw, 3.7rem);
       font-weight: 800;
-      line-height: 1.18;
+      line-height: 1.15;
       letter-spacing: -0.04em;
       text-wrap: balance;
     }
@@ -619,8 +627,8 @@
       margin-top: 1.15rem;
       max-width: 760px;
       color: var(--gray-500);
-      font-size: clamp(1rem, 1.7vw, 1.12rem);
-      line-height: 1.85;
+      font-size: clamp(1.05rem, 1.7vw, 1.18rem);
+      line-height: 1.88;
     }
 
     .bento-card,
@@ -1068,13 +1076,14 @@
       }
 
       .trust-strip {
-        margin-top: -1rem;
+        margin-top: 0;
       }
 
       .trust-item {
         min-height: auto;
         border-right: 0;
-      border-bottom: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+      }
 
       .trust-item:last-child {
         border-bottom: 0;
@@ -1230,7 +1239,7 @@
             </h1>
 
             <p class="hero-description reveal mt-7" style="transition-delay: 100ms;">
-              我整合生成式 AI、訂閱商業模式與實際營運經驗，協助企業優化工作流程、建立可持續的會員關係，並把科技轉化為可落地、可衡量、能持續成長的商業價值。
+              我將生成式 AI、訂閱商業模式與營運實務整合，協助企業優化流程、鞏固會員關係，並把科技轉化為可落地、可衡量、可持續成長的商業價值。
             </p>
 
             <div class="reveal mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap" style="transition-delay: 180ms;">
@@ -1335,28 +1344,28 @@
               <i data-lucide="briefcase-business" class="h-5 w-5 text-blue-600" aria-hidden="true"></i>
               <div>
                 <h2 class="text-base font-extrabold text-slate-900">創業與企業經營</h2>
-                <p class="mt-1 text-sm text-slate-500">從管理、流程到市場協作，理解策略落地的真實條件。</p>
+                <p class="mt-1 text-sm text-slate-500">從管理、流程到市場協作，打造能落地的策略與營運執行力。</p>
               </div>
             </article>
             <article class="trust-item reveal" style="transition-delay: 80ms;">
               <i data-lucide="graduation-cap" class="h-5 w-5 text-violet-600" aria-hidden="true"></i>
               <div>
                 <h2 class="text-base font-extrabold text-slate-900">AI 教學與顧問</h2>
-                <p class="mt-1 text-sm text-slate-500">以企業情境、實作流程與問題解決為核心設計學習。</p>
+                <p class="mt-1 text-sm text-slate-500">以企業情境與實作流程為核心，設計可用、可執行的 AI 學習方案。</p>
               </div>
             </article>
             <article class="trust-item reveal" style="transition-delay: 160ms;">
               <i data-lucide="network" class="h-5 w-5 text-emerald-600" aria-hidden="true"></i>
               <div>
                 <h2 class="text-base font-extrabold text-slate-900">跨產業協作</h2>
-                <p class="mt-1 text-sm text-slate-500">連結品牌、平台、技術與服務，創造共同成長空間。</p>
+                <p class="mt-1 text-sm text-slate-500">連結品牌、平台、技術與服務，建立具體的跨產業共創機制。</p>
               </div>
             </article>
             <article class="trust-item reveal" style="transition-delay: 240ms;">
               <i data-lucide="refresh-cw" class="h-5 w-5 text-blue-600" aria-hidden="true"></i>
               <div>
                 <h2 class="text-base font-extrabold text-slate-900">訂閱經濟實踐</h2>
-                <p class="mt-1 text-sm text-slate-500">從一次交易走向長期關係，兼顧策略、系統與營運。</p>
+                <p class="mt-1 text-sm text-slate-500">從一次交易走向長期關係，兼顧策略、系統與營運，落實會員經濟。</p>
               </div>
             </article>
           </div>
@@ -1368,7 +1377,7 @@
           <div class="section-heading reveal">
             <span class="section-label"><span class="status-dot" aria-hidden="true"></span>About</span>
             <h2 id="about-title" class="section-title">把科技、商業與營運，整合成真正能被使用的解決方案</h2>
-            <p class="section-description">賴冠淵｜谷萊富科技有限公司創辦人。以創業、管理、AI 教學與跨產業協作的實務視角，協助企業建立更有效率、更可信任，也更能持續成長的運作方式。</p>
+            <p class="section-description">我結合創業、管理、AI 教學與跨產業協作的實務經驗，協助企業建立更高效、更信賴、可持續成長的營運模式。</p>
           </div>
 
           <div class="mt-12 grid gap-8 lg:grid-cols-[.82fr_1.18fr]">
@@ -1387,8 +1396,8 @@
                 <div class="flex flex-col gap-5 sm:flex-row sm:items-start sm:justify-between">
                   <div>
                     <p class="text-xs font-extrabold tracking-[0.18em] text-blue-600">BRAND MISSION</p>
-                    <h3 class="mt-2 text-2xl font-extrabold text-slate-900">讓科技改善真實的工作與生活</h3>
-                    <p class="mt-3 max-w-2xl text-slate-600">我致力於將 AI 技術、商業模式與實際營運需求整合，協助個人、企業與團隊更有效率地運用科技。創立谷萊富科技的初衷，是建立兼具信任、便利與共創精神的服務平台。</p>
+                    <h3 class="mt-2 text-2xl font-extrabold text-slate-900">讓科技改善實際工作與生活體驗</h3>
+                    <p class="mt-3 max-w-2xl text-slate-600">我整合 AI 技術、商業模式與營運需求，協助企業以更有效率、更可靠的方式運用科技，打造兼具信任、便利與共創精神的服務體系。</p>
                   </div>
                   <span class="icon-box shrink-0"><i data-lucide="orbit" class="h-6 w-6" aria-hidden="true"></i></span>
                 </div>
