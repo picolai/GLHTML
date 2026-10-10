@@ -62,7 +62,7 @@
 .shorts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:32px 24px;margin-top:24px;align-items:start}
 .shorts-grid.one{grid-template-columns:minmax(0,300px)}
 .short-video{margin:0;max-width:340px}
-.short-video video{display:block;width:100%;height:auto;aspect-ratio:9/16;border-radius:16px;background:#14101c}
+.short-video video{display:block;width:100%;height:auto;aspect-ratio:9/16;border-radius:16px;background:var(--surface)}
 .short-video figcaption{margin-top:12px}
 .short-video .sv-title{margin:0;font-weight:700;font-size:16px;line-height:1.5;color:var(--ink)}
 .short-video .sv-desc{margin:6px 0 0;font-size:14px;line-height:1.75;color:var(--muted)}
@@ -77,3 +77,7 @@
 .shorts-more{margin-top:32px}
 @media(max-width:767px){.shorts-grid,.shorts-grid.one{grid-template-columns:minmax(0,340px);justify-content:center}.short-video{max-width:none}}
 /* shorts:end */
+
+/* Blurred preview behind lazy photos until the real image paints. */
+.hero-media img,.story-photo img{background-size:cover;background-position:center;background-repeat:no-repeat}
+.short-video video{border:1px solid var(--line)}
