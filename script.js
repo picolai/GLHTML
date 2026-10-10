@@ -42,14 +42,14 @@ function 顯示結果() {
   上一題按鈕.style.visibility = "visible";
 }
 
-// 只有首頁有測驗；其他頁面略過。
+// 只有品牌合作頁有測驗；其他頁面略過。
 if (題目容器) {
 下一題按鈕.addEventListener("click", () => { if (目前題號 === 題目資料.length - 1) 顯示結果(); else {目前題號++;顯示題目();} });
 上一題按鈕.addEventListener("click", () => { if (下一題按鈕.style.display === "none") {目前題號 = 0;回答分數.length = 0;下一題按鈕.style.display = "block";顯示題目();} else {目前題號--;顯示題目();} });
 顯示題目();
 }
 
-// 結構化資料已直接寫在 index.html 的 <head>，搜尋引擎不需執行 JavaScript 就能讀到。
+// 結構化資料已直接寫在各頁的 <head>，搜尋引擎不需執行 JavaScript 就能讀到。
 
 // 無 JavaScript 時導覽保持可見。手機版支援展開、關閉及 Escape。
 const 選單按鈕 = document.querySelector(".menu-toggle");
@@ -104,7 +104,7 @@ const 回饋發佈金鑰 = "sb_publishable_PvGaE8fLtCKHj8a3Bl_IRg_Rt-67dzc";
       body: JSON.stringify({
         name: 表單資料.get("姓名"),
         email: 表單資料.get("電子信箱"),
-        message: 表單資料.get("回饋內容")
+        message: (回饋表單.dataset.source ? `【${回饋表單.dataset.source}】` : "") + 表單資料.get("回饋內容")
       })
     });
 
