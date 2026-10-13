@@ -94,3 +94,8 @@
 .related-reading{margin:48px 0 0;padding:28px 32px;border:1px solid var(--line);border-radius:16px;background:var(--card)}.related-reading h2{font-size:21px;margin:0 0 12px}.related-reading ul{margin:0;padding-left:1.2em;display:grid;gap:6px}.related-reading a{line-height:1.7}
 .guide-list{margin:24px 0 20px}.guide-list .guide-title{font-weight:700;color:var(--ink);margin-bottom:8px}.guide-list ol{margin:0;padding-left:1.4em;display:grid;gap:4px}.guide-list a{font-size:15px;line-height:1.7}
 @media(max-width:767px){.related-reading{padding:22px 20px}}
+
+/* 2026-10-10 E-E-A-T：關於頁、作者卡連結 */
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:48px;align-items:start}.about-facts{display:grid;grid-template-columns:7em 1fr;gap:12px 20px;margin:0}.about-facts dt{font-weight:700;color:var(--ink)}.about-facts dd{margin:0;color:var(--muted)}.about-rules{margin:0;padding-left:1.3em;display:grid;gap:14px;color:var(--muted)}.about-rules b{color:var(--ink)}
+.author-card .author-more{margin-top:10px}
+@media(max-width:767px){.about-grid{grid-template-columns:1fr;gap:20px}.about-facts{grid-template-columns:1fr;gap:2px}.about-facts dd{margin-bottom:10px}}
